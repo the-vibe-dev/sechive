@@ -1,14 +1,21 @@
 # Public Case Studies
 
+<p align="center">
+  <img src="assets/sechive-bug-bounty-proof.svg" alt="SecHive bug bounty proof banner" width="100%">
+</p>
+
+<p align="center">
+  <kbd>bug bounty</kbd>&nbsp;
+  <kbd>OWASP Juice Shop</kbd>&nbsp;
+  <kbd>XBOW-style benchmark</kbd>&nbsp;
+  <kbd>CTF / THM proof</kbd>
+</p>
+
 SecHive public proof material has three tracks. Real bug bounty material is
 sanitized because it comes from non-disclosable targets. OWASP Juice Shop
 material is published in full because it is a safe benchmark target. XBOW-style
 benchmark material is published as aggregate, public-safe methodology and
 performance analysis without solution paths.
-
-<p align="center">
-  <img src="assets/sechive-bug-bounty-proof.svg" alt="SecHive bug bounty proof banner" width="100%">
-</p>
 
 ## Featured proof pages
 

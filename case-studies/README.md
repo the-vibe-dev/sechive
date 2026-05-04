@@ -1,6 +1,14 @@
-# Case Studies
+<p align="center">
+  <img src="../assets/sechive-lockup-horizontal.png" alt="SecHive.ai" width="380">
+</p>
 
-This folder is the primary GitHub-readable case-study portal for SecHive.ai.
+<h1 align="center">Case Studies</h1>
+
+<p align="center"><em>The primary GitHub-readable case-study portal for SecHive.ai.</em></p>
+
+<p align="center">
+  <img src="../assets/github-case-study-map.svg" alt="SecHive.ai case study map" width="100%">
+</p>
 
 ## Recommended Reading Order
 

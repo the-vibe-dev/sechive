@@ -1,5 +1,16 @@
 # Bug Bounty Proof Patterns
 
+<p align="center">
+  <img src="../assets/proof-chain.svg" alt="SecHive.ai bug bounty proof chain" width="100%">
+</p>
+
+<p align="center">
+  <kbd>90 sanitized results</kbd>&nbsp;
+  <kbd>HackerOne-style review</kbd>&nbsp;
+  <kbd>root-cause patterns</kbd>&nbsp;
+  <kbd>no payout claim</kbd>
+</p>
+
 ## Executive Summary
 
 Private bug bounty work is not copied raw into this repository. That is a feature, not a gap. Raw bounty evidence can contain report IDs, target names, account details, headers, cookies, tokens, screenshots, and unsubmitted vulnerability details. Publishing it would be irresponsible.

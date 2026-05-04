@@ -1,6 +1,14 @@
-# SecHive.ai Case Study Index
+<p align="center">
+  <img src="assets/sechive-lockup-horizontal.png" alt="SecHive.ai" width="420">
+</p>
 
-This is the GitHub-native portal. Every link below opens as Markdown in GitHub.
+<h1 align="center">SecHive.ai Case Study Index</h1>
+
+<p align="center"><em>The GitHub-native portal. Every link below opens as Markdown in GitHub.</em></p>
+
+<p align="center">
+  <img src="assets/public-proof-stack.svg" alt="SecHive.ai public proof stack" width="100%">
+</p>
 
 ## Featured Studies
 

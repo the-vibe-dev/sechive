@@ -1,5 +1,17 @@
 # Customer-Ready Reporting
 
+<p align="center">
+  <img src="../assets/report-output-matrix.svg" alt="SecHive.ai report output matrix" width="100%">
+</p>
+
+<p align="center">
+  <kbd>CVSS</kbd>&nbsp;
+  <kbd>harm</kbd>&nbsp;
+  <kbd>proof</kbd>&nbsp;
+  <kbd>remediation</kbd>&nbsp;
+  <kbd>residual risk</kbd>
+</p>
+
 ## Executive Summary
 
 SecHive.ai is designed to produce reports that can be shared with customers, auditors, developers, and executives. A useful report is not just a list of vulnerability names. It needs to explain severity, evidence, harm, affected assets, reproduction context, remediation, residual risk, and what was not proven.

@@ -1,5 +1,16 @@
 # Juice Shop Real Black-Box Run
 
+<p align="center">
+  <img src="../assets/score-snapshot.svg" alt="SecHive.ai Juice Shop run snapshot" width="100%">
+</p>
+
+<p align="center">
+  <kbd>OWASP Juice Shop</kbd>&nbsp;
+  <kbd>39 validated runtime findings</kbd>&nbsp;
+  <kbd>reproducible target</kbd>&nbsp;
+  <kbd>sanitized evidence</kbd>
+</p>
+
 ## Executive Summary
 
 OWASP Juice Shop is intentionally vulnerable, reproducible, and widely understood. That makes it useful for showing the shape of a completed SecHive.ai run without exposing a private customer. The included good run is not marketed as a secret target or a private production assessment. It is a transparent training-target assessment used to show workflow, evidence, and report output.

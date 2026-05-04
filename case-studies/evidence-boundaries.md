@@ -1,5 +1,15 @@
 # Evidence Boundaries
 
+<p align="center">
+  <img src="../assets/public-proof-stack.svg" alt="SecHive.ai public proof stack" width="100%">
+</p>
+
+<p align="center">
+  <kbd>what is published</kbd>&nbsp;
+  <kbd>what is redacted</kbd>&nbsp;
+  <kbd>why redaction strengthens proof</kbd>
+</p>
+
 ## Executive Summary
 
 A public evidence repository has to walk a tight line: enough detail to support the product claim, not so much detail that it leaks private targets, secrets, or reusable exploit material. SecHive.ai treats that boundary as part of the proof model.
