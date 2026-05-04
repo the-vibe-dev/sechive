@@ -1,0 +1,41 @@
+{
+  "claim_language": "internally benchmarked against local intentionally vulnerable targets",
+  "container": {
+    "container_id": "eb87d973aab6",
+    "created": "2026-05-03T16:13:51.209666468Z",
+    "image": "crapi/crapi-web:latest",
+    "image_id": "sha256:[REDACTED_SECRET]",
+    "ports": {
+      "443/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "8443"
+        },
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "30443"
+        }
+      ],
+      "80/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "8888"
+        },
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "30080"
+        }
+      ]
+    },
+    "status": "running"
+  },
+  "duration_seconds": 1.0,
+  "ended_at": "2026-05-03T12:32:08-04:00",
+  "local_only": true,
+  "name": "OWASP crAPI",
+  "slug": "crapi",
+  "started_at": "2026-05-03T12:32:07-04:00",
+  "status": "completed",
+  "status_detail": "http-200",
+  "target_url": "http://127.0.0.1:8888"
+}

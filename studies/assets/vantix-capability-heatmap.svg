@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Vantix CTF Capability Heatmap</title>
+<desc id="desc">Capability heatmap showing Vantix validation coverage across web, privilege escalation, recon, network infrastructure, binary crypto, active directory, specialized CVE scenarios, and forensics.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7e8"/><stop offset="0.45" stop-color="#f7faf9"/><stop offset="1" stop-color="#eef7f4"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#16a36f"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.12"/></filter>
+  <style>
+    .title{font:800 48px Inter,Segoe UI,Arial,sans-serif;fill:#172033;letter-spacing:-1.5px}.sub{font:500 18px Inter,Segoe UI,Arial,sans-serif;fill:#64748b}.label{font:800 21px Inter,Segoe UI,Arial,sans-serif;fill:#172033}.small{font:700 15px Inter,Segoe UI,Arial,sans-serif;fill:#64748b}.tag{font:900 13px Inter,Segoe UI,Arial,sans-serif;fill:#0e7a54}.axis{stroke:#d8e3e0;stroke-width:1}.chip{fill:#f6fffb;stroke:#bcd8d0;stroke-width:1}.card{fill:rgba(255,255,255,.92);stroke:#d8e3e0;stroke-width:1}.barbg{fill:#e8f1ef}.barfill{fill:url(#bar)}
+  </style>
+</defs>
+<rect width="1200" height="720" rx="38" fill="url(#bg)"/>
+<g filter="url(#shadow)"><rect x="52" y="48" width="1096" height="624" rx="32" class="card"/></g>
+<g transform="translate(88 92)">
+  <text class="title">Validated Capability Heatmap</text>
+  <text y="40" class="sub">Completed THM/CTF room proofs mapped to the Vantix recon → skill routing → proof pipeline.</text>
+  <g transform="translate(0 76)">
+    <rect class="chip" x="0" y="0" width="236" height="34" rx="17"/><text class="tag" x="16" y="23">Completed THM CTF proofs</text>
+    <rect class="chip" x="250" y="0" width="226" height="34" rx="17"/><text class="tag" x="266" y="23">Evidence-backed records</text>
+    <rect class="chip" x="490" y="0" width="248" height="34" rx="17"/><text class="tag" x="506" y="23">Multi-domain validation</text>
+  </g>
+</g>
+<g transform="translate(88 230)">
+  <text class="small" x="370" y="-28">Coverage strength</text>
+  <line class="axis" x1="370" y1="-12" x2="950" y2="-12"/>
+  <text class="small" x="370" y="-20">0</text><text class="small" x="635" y="-20">50</text><text class="small" x="922" y="-20">100</text>
+  <g transform="translate(0 0)"><text class="label" y="22">Web / API</text><text class="small" y="47">Auth, logic flaws, CMS, REST/API fuzzing</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="580" height="28" rx="14"/><text class="small" x="970" y="27">Very strong</text></g>
+  <g transform="translate(0 68)"><text class="label" y="22">Privilege Escalation</text><text class="small" y="47">Linux, cron, SUID, misconfig, root paths</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="560" height="28" rx="14"/><text class="small" x="970" y="27">Very strong</text></g>
+  <g transform="translate(0 136)"><text class="label" y="22">Recon / OSINT</text><text class="small" y="47">Passive recon, active recon, external intelligence</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="522" height="28" rx="14"/><text class="small" x="970" y="27">Strong</text></g>
+  <g transform="translate(0 204)"><text class="label" y="22">Network / Infra</text><text class="small" y="47">Service enumeration, takeover, exposed services</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="504" height="28" rx="14"/><text class="small" x="970" y="27">Strong</text></g>
+  <g transform="translate(0 272)"><text class="label" y="22">Binary / Crypto</text><text class="small" y="47">Reversing, hashes, crypto, PWN foundations</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="406" height="28" rx="14"/><text class="small" x="970" y="27">Medium+</text></g>
+  <g transform="translate(0 340)"><text class="label" y="22">Active Directory</text><text class="small" y="47">Domain recon, Kerberos/AD attack flow</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="390" height="28" rx="14"/><text class="small" x="970" y="27">Medium+</text></g>
+  <g transform="translate(0 408)"><text class="label" y="22">Specialized / CVE</text><text class="small" y="47">CVE triage, ICS-style protocols, specialized paths</text><rect class="barbg" x="370" y="6" width="580" height="28" rx="14"/><rect class="barfill" x="370" y="6" width="306" height="28" rx="14"/><text class="small" x="970" y="27">Growing</text></g>
+</g>
+</svg>

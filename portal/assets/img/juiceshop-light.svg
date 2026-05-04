@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" fill="none">
+  <rect width="1200" height="480" fill="#FBFAF6"></rect>
+  <g font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1.6" fill="#0B1A2E">
+    <text x="32" y="38" font-weight="600">OWASP JUICE SHOP · COVERAGE / 111 CHALLENGES</text>
+    <text x="32" y="466" opacity=".5">FIG.04 — REPRODUCIBLE BENCHMARK</text>
+    <text x="1080" y="466" opacity=".5">REV.04A</text>
+  </g>
+  <g stroke="#D8D2C2"><line x1="0" y1="60" x2="1200" y2="60"></line><line x1="0" y1="430" x2="1200" y2="430"></line></g>
+
+
+  <g transform="translate(32 100)">
+    <g font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1.6" fill="#0B1A2E">
+      <text x="0" y="-10">RUNTIME · 39</text>
+    </g>
+
+    <g>
+
+      <g id="cov">
+      </g>
+    </g>
+  </g>
+
+
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#0B1A2E" letter-spacing="1.4">
+    <text x="32" y="92">RUNTIME · 39 / 111</text>
+  </g>
+  <g transform="translate(32 100)">
+
+  </g>
+
+
+
+  <g transform="translate(32 100)" stroke="#0B1A2E" stroke-width=".7">
+
+    <g fill="#1E4FD9">
+
+      <rect x="0" y="0" width="9" height="22"></rect><rect x="10" y="0" width="9" height="22"></rect><rect x="20" y="0" width="9" height="22"></rect><rect x="30" y="0" width="9" height="22"></rect><rect x="40" y="0" width="9" height="22"></rect><rect x="50" y="0" width="9" height="22"></rect><rect x="60" y="0" width="9" height="22"></rect><rect x="70" y="0" width="9" height="22"></rect><rect x="80" y="0" width="9" height="22"></rect><rect x="90" y="0" width="9" height="22"></rect><rect x="100" y="0" width="9" height="22"></rect><rect x="110" y="0" width="9" height="22"></rect><rect x="120" y="0" width="9" height="22"></rect><rect x="130" y="0" width="9" height="22"></rect><rect x="140" y="0" width="9" height="22"></rect><rect x="150" y="0" width="9" height="22"></rect><rect x="160" y="0" width="9" height="22"></rect><rect x="170" y="0" width="9" height="22"></rect><rect x="180" y="0" width="9" height="22"></rect><rect x="190" y="0" width="9" height="22"></rect><rect x="200" y="0" width="9" height="22"></rect><rect x="210" y="0" width="9" height="22"></rect><rect x="220" y="0" width="9" height="22"></rect><rect x="230" y="0" width="9" height="22"></rect><rect x="240" y="0" width="9" height="22"></rect><rect x="250" y="0" width="9" height="22"></rect><rect x="260" y="0" width="9" height="22"></rect><rect x="270" y="0" width="9" height="22"></rect><rect x="280" y="0" width="9" height="22"></rect><rect x="290" y="0" width="9" height="22"></rect><rect x="300" y="0" width="9" height="22"></rect><rect x="310" y="0" width="9" height="22"></rect><rect x="320" y="0" width="9" height="22"></rect><rect x="330" y="0" width="9" height="22"></rect><rect x="340" y="0" width="9" height="22"></rect>
+    </g>
+    <g fill="#ECEEF3">
+
+      <rect x="350" y="0" width="9" height="22"></rect><rect x="360" y="0" width="9" height="22"></rect><rect x="370" y="0" width="9" height="22"></rect><rect x="380" y="0" width="9" height="22"></rect><rect x="390" y="0" width="9" height="22"></rect><rect x="400" y="0" width="9" height="22"></rect><rect x="410" y="0" width="9" height="22"></rect><rect x="420" y="0" width="9" height="22"></rect><rect x="430" y="0" width="9" height="22"></rect><rect x="440" y="0" width="9" height="22"></rect><rect x="450" y="0" width="9" height="22"></rect><rect x="460" y="0" width="9" height="22"></rect><rect x="470" y="0" width="9" height="22"></rect><rect x="480" y="0" width="9" height="22"></rect><rect x="490" y="0" width="9" height="22"></rect><rect x="500" y="0" width="9" height="22"></rect><rect x="510" y="0" width="9" height="22"></rect><rect x="520" y="0" width="9" height="22"></rect><rect x="530" y="0" width="9" height="22"></rect><rect x="540" y="0" width="9" height="22"></rect><rect x="550" y="0" width="9" height="22"></rect><rect x="560" y="0" width="9" height="22"></rect><rect x="570" y="0" width="9" height="22"></rect><rect x="580" y="0" width="9" height="22"></rect><rect x="590" y="0" width="9" height="22"></rect><rect x="600" y="0" width="9" height="22"></rect><rect x="610" y="0" width="9" height="22"></rect><rect x="620" y="0" width="9" height="22"></rect><rect x="630" y="0" width="9" height="22"></rect><rect x="640" y="0" width="9" height="22"></rect><rect x="650" y="0" width="9" height="22"></rect><rect x="660" y="0" width="9" height="22"></rect><rect x="670" y="0" width="9" height="22"></rect><rect x="680" y="0" width="9" height="22"></rect><rect x="690" y="0" width="9" height="22"></rect><rect x="700" y="0" width="9" height="22"></rect><rect x="710" y="0" width="9" height="22"></rect><rect x="720" y="0" width="9" height="22"></rect><rect x="730" y="0" width="9" height="22"></rect><rect x="740" y="0" width="9" height="22"></rect><rect x="750" y="0" width="9" height="22"></rect><rect x="760" y="0" width="9" height="22"></rect><rect x="770" y="0" width="9" height="22"></rect><rect x="780" y="0" width="9" height="22"></rect><rect x="790" y="0" width="9" height="22"></rect><rect x="800" y="0" width="9" height="22"></rect><rect x="810" y="0" width="9" height="22"></rect><rect x="820" y="0" width="9" height="22"></rect><rect x="830" y="0" width="9" height="22"></rect><rect x="840" y="0" width="9" height="22"></rect><rect x="850" y="0" width="9" height="22"></rect><rect x="860" y="0" width="9" height="22"></rect><rect x="870" y="0" width="9" height="22"></rect><rect x="880" y="0" width="9" height="22"></rect><rect x="890" y="0" width="9" height="22"></rect><rect x="900" y="0" width="9" height="22"></rect><rect x="910" y="0" width="9" height="22"></rect><rect x="920" y="0" width="9" height="22"></rect><rect x="930" y="0" width="9" height="22"></rect><rect x="940" y="0" width="9" height="22"></rect><rect x="950" y="0" width="9" height="22"></rect><rect x="960" y="0" width="9" height="22"></rect><rect x="970" y="0" width="9" height="22"></rect><rect x="980" y="0" width="9" height="22"></rect><rect x="990" y="0" width="9" height="22"></rect><rect x="1000" y="0" width="9" height="22"></rect><rect x="1010" y="0" width="9" height="22"></rect><rect x="1020" y="0" width="9" height="22"></rect><rect x="1030" y="0" width="9" height="22"></rect><rect x="1040" y="0" width="9" height="22"></rect><rect x="1050" y="0" width="9" height="22"></rect><rect x="1060" y="0" width="9" height="22"></rect><rect x="1070" y="0" width="9" height="22"></rect><rect x="1080" y="0" width="9" height="22"></rect><rect x="1090" y="0" width="9" height="22"></rect><rect x="1100" y="0" width="9" height="22"></rect>
+    </g>
+  </g>
+
+
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#0B1A2E" letter-spacing="1.4">
+    <text x="32" y="172">SOURCE-AWARE · 64 / 111</text>
+  </g>
+  <g transform="translate(32 180)" stroke="#0B1A2E" stroke-width=".7">
+    <g fill="#0B1A2E">
+      <rect x="0" y="0" width="9" height="22"></rect><rect x="10" y="0" width="9" height="22"></rect><rect x="20" y="0" width="9" height="22"></rect><rect x="30" y="0" width="9" height="22"></rect><rect x="40" y="0" width="9" height="22"></rect><rect x="50" y="0" width="9" height="22"></rect><rect x="60" y="0" width="9" height="22"></rect><rect x="70" y="0" width="9" height="22"></rect><rect x="80" y="0" width="9" height="22"></rect><rect x="90" y="0" width="9" height="22"></rect><rect x="100" y="0" width="9" height="22"></rect><rect x="110" y="0" width="9" height="22"></rect><rect x="120" y="0" width="9" height="22"></rect><rect x="130" y="0" width="9" height="22"></rect><rect x="140" y="0" width="9" height="22"></rect><rect x="150" y="0" width="9" height="22"></rect><rect x="160" y="0" width="9" height="22"></rect><rect x="170" y="0" width="9" height="22"></rect><rect x="180" y="0" width="9" height="22"></rect><rect x="190" y="0" width="9" height="22"></rect><rect x="200" y="0" width="9" height="22"></rect><rect x="210" y="0" width="9" height="22"></rect><rect x="220" y="0" width="9" height="22"></rect><rect x="230" y="0" width="9" height="22"></rect><rect x="240" y="0" width="9" height="22"></rect><rect x="250" y="0" width="9" height="22"></rect><rect x="260" y="0" width="9" height="22"></rect><rect x="270" y="0" width="9" height="22"></rect><rect x="280" y="0" width="9" height="22"></rect><rect x="290" y="0" width="9" height="22"></rect><rect x="300" y="0" width="9" height="22"></rect><rect x="310" y="0" width="9" height="22"></rect><rect x="320" y="0" width="9" height="22"></rect><rect x="330" y="0" width="9" height="22"></rect><rect x="340" y="0" width="9" height="22"></rect>
+    </g>
+    <g fill="#1E4FD9">
+      <rect x="350" y="0" width="9" height="22"></rect><rect x="360" y="0" width="9" height="22"></rect><rect x="370" y="0" width="9" height="22"></rect><rect x="380" y="0" width="9" height="22"></rect><rect x="390" y="0" width="9" height="22"></rect><rect x="400" y="0" width="9" height="22"></rect><rect x="410" y="0" width="9" height="22"></rect><rect x="420" y="0" width="9" height="22"></rect><rect x="430" y="0" width="9" height="22"></rect><rect x="440" y="0" width="9" height="22"></rect><rect x="450" y="0" width="9" height="22"></rect><rect x="460" y="0" width="9" height="22"></rect><rect x="470" y="0" width="9" height="22"></rect><rect x="480" y="0" width="9" height="22"></rect><rect x="490" y="0" width="9" height="22"></rect><rect x="500" y="0" width="9" height="22"></rect><rect x="510" y="0" width="9" height="22"></rect><rect x="520" y="0" width="9" height="22"></rect><rect x="530" y="0" width="9" height="22"></rect><rect x="540" y="0" width="9" height="22"></rect><rect x="550" y="0" width="9" height="22"></rect><rect x="560" y="0" width="9" height="22"></rect><rect x="570" y="0" width="9" height="22"></rect>
+    </g>
+    <g fill="#ECEEF3">
+      <rect x="580" y="0" width="9" height="22"></rect><rect x="590" y="0" width="9" height="22"></rect><rect x="600" y="0" width="9" height="22"></rect><rect x="610" y="0" width="9" height="22"></rect><rect x="620" y="0" width="9" height="22"></rect><rect x="630" y="0" width="9" height="22"></rect><rect x="640" y="0" width="9" height="22"></rect><rect x="650" y="0" width="9" height="22"></rect><rect x="660" y="0" width="9" height="22"></rect><rect x="670" y="0" width="9" height="22"></rect><rect x="680" y="0" width="9" height="22"></rect><rect x="690" y="0" width="9" height="22"></rect><rect x="700" y="0" width="9" height="22"></rect><rect x="710" y="0" width="9" height="22"></rect><rect x="720" y="0" width="9" height="22"></rect><rect x="730" y="0" width="9" height="22"></rect><rect x="740" y="0" width="9" height="22"></rect><rect x="750" y="0" width="9" height="22"></rect><rect x="760" y="0" width="9" height="22"></rect><rect x="770" y="0" width="9" height="22"></rect><rect x="780" y="0" width="9" height="22"></rect><rect x="790" y="0" width="9" height="22"></rect><rect x="800" y="0" width="9" height="22"></rect><rect x="810" y="0" width="9" height="22"></rect><rect x="820" y="0" width="9" height="22"></rect><rect x="830" y="0" width="9" height="22"></rect><rect x="840" y="0" width="9" height="22"></rect><rect x="850" y="0" width="9" height="22"></rect><rect x="860" y="0" width="9" height="22"></rect><rect x="870" y="0" width="9" height="22"></rect><rect x="880" y="0" width="9" height="22"></rect><rect x="890" y="0" width="9" height="22"></rect><rect x="900" y="0" width="9" height="22"></rect><rect x="910" y="0" width="9" height="22"></rect><rect x="920" y="0" width="9" height="22"></rect><rect x="930" y="0" width="9" height="22"></rect><rect x="940" y="0" width="9" height="22"></rect><rect x="950" y="0" width="9" height="22"></rect><rect x="960" y="0" width="9" height="22"></rect><rect x="970" y="0" width="9" height="22"></rect><rect x="980" y="0" width="9" height="22"></rect><rect x="990" y="0" width="9" height="22"></rect><rect x="1000" y="0" width="9" height="22"></rect><rect x="1010" y="0" width="9" height="22"></rect><rect x="1020" y="0" width="9" height="22"></rect><rect x="1030" y="0" width="9" height="22"></rect><rect x="1040" y="0" width="9" height="22"></rect><rect x="1050" y="0" width="9" height="22"></rect><rect x="1060" y="0" width="9" height="22"></rect><rect x="1070" y="0" width="9" height="22"></rect><rect x="1080" y="0" width="9" height="22"></rect><rect x="1090" y="0" width="9" height="22"></rect><rect x="1100" y="0" width="9" height="22"></rect>
+    </g>
+  </g>
+
+
+  <g font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="1.6" fill="#0B1A2E">
+    <text x="32" y="252">SEVERITY DISTRIBUTION (LATEST RUNTIME)</text>
+  </g>
+  <g transform="translate(32 270)" font-family="JetBrains Mono, monospace" font-size="10" fill="#0B1A2E">
+    <g><text x="0" y="14">CRITICAL</text><rect x="120" y="2" width="120" height="14" fill="#C5283D"></rect><text x="248" y="14">4</text></g>
+    <g transform="translate(0 22)"><text x="0" y="14">HIGH</text><rect x="120" y="2" width="540" height="14" fill="#C57F12"></rect><text x="668" y="14">19</text></g>
+    <g transform="translate(0 44)"><text x="0" y="14">MEDIUM</text><rect x="120" y="2" width="280" height="14" fill="#1E4FD9"></rect><text x="408" y="14">9</text></g>
+    <g transform="translate(0 66)"><text x="0" y="14">LOW</text><rect x="120" y="2" width="60" height="14" fill="#5C6A7E"></rect><text x="188" y="14">3</text></g>
+  </g>
+
+
+  <g transform="translate(880 254)" font-family="JetBrains Mono, monospace" font-size="10" fill="#0B1A2E" letter-spacing="1.6">
+    <text y="0" font-weight="600">LEGEND</text>
+    <g transform="translate(0 14)"><rect width="14" height="14" fill="#1E4FD9"></rect><text x="22" y="11">RUNTIME-VALIDATED</text></g>
+    <g transform="translate(0 32)"><rect width="14" height="14" fill="#0B1A2E"></rect><text x="22" y="11">SOURCE + RUNTIME</text></g>
+    <g transform="translate(0 50)"><rect width="14" height="14" fill="#1E4FD9" opacity=".75"></rect><text x="22" y="11">SOURCE CANDIDATE</text></g>
+    <g transform="translate(0 68)"><rect width="14" height="14" fill="#ECEEF3" stroke="#0B1A2E" stroke-width=".7"></rect><text x="22" y="11">UNCOVERED</text></g>
+  </g>
+</svg>

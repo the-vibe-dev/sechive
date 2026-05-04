@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DVWA report</title>
+  <style>
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #f7f8fb; color: #17202a; }
+    main { max-width: 1040px; margin: 0 auto; padding: 40px 24px 72px; }
+    h1 { font-size: 34px; margin: 0 0 10px; }
+    h2 { margin-top: 32px; border-top: 1px solid #d9dee8; padding-top: 22px; }
+    p, li { line-height: 1.58; }
+    pre { background: #111827; color: #e5e7eb; padding: 12px; border-radius: 8px; overflow-x: auto; }
+    .banner { background: #101828; color: white; padding: 18px 24px; }
+    .safe { color: #475467; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="banner">Vantix benchmark proof pack</div>
+  <main>
+    <h1>DVWA Vantix Benchmark Report</h1><h2>Benchmark</h2><li>Benchmark name: DVWA</li><li>Local target URL: http://127.0.0.1:8088</li><li>Purpose: Classic vulnerability smoke baseline</li><li>Run status: completed</li><li>Run duration seconds: 1.0</li><li>Claim boundary: internally benchmarked against local intentionally vulnerable targets</li><h2>Why This Benchmark Matters</h2><p>Classic vulnerability smoke baseline. This benchmark is useful for repeatable security demos because it is intentionally vulnerable and can be started locally without touching public hosted targets.</p><h2>Exact Vantix Command</h2><p>```bash</p><p>scripts/vantix scan http://127.0.0.1:8088 --mode pentest --json --strict-proof-only --proof-depth standard --local-test-env http://127.0.0.1:8088 --out runs/dvwa/vantix-output/vantix-scan-output.json</p><p>```</p><h2>Scope Boundaries</h2><li>Allowed hosts: `127.0.0.1`, `localhost`</li><li>External egress: blocked where supported; not required for deterministic CLI reachability mode</li><li>Target class: local intentionally vulnerable benchmark container</li><li>Public targets scanned: none</li><h2>Summary Counts</h2><li>Total findings: 0</li><li>Confirmed findings: 0</li><li>Unconfirmed findings: 0</li><li>Blocked actions: 0 recorded in this deterministic CLI run</li><li>Out-of-scope refusals: 0 recorded for the local in-scope URL</li><h2>Finding Table</h2><pre>| Title | Severity | Status | Evidence |</pre><pre>| --- | --- | --- | --- |</pre><pre>| No findings promoted | n/a | completed | Vantix output did not contain promoted findings. |</pre><h2>Severity Distribution</h2><p>```json</p><p>{}</p><p>```</p><h2>CWE / OWASP Mapping</h2><p>No unsupported vulnerability mappings are invented. When future Vantix findings include CWE or OWASP tags, this section should be generated directly from the evidence records.</p><h2>Evidence Artifacts</h2><li>`target-info.json`</li><li>`scope-config.json`</li><li>`vantix-output/vantix-scan-output.json`</li><li>raw logs under `../../raw-logs/`</li><li>screenshots under `screenshots/` when captured</li><h2>Safety Events</h2><p>This run used local-only scope boundaries. No destructive actions were attempted. No public hosted target was scanned. No certification, compliance, or third-party attestation claim is made.</p><h2>Limitations And Next Steps</h2><li>Deterministic CLI mode confirms target reachability and preserves scope metadata; deeper browser/API findings require a full Vantix worker run with provider/runtime configuration enabled.</li>
+    <p class="safe">Safe claim: internally benchmarked against local intentionally vulnerable targets. internally assessed against OWASP APTS and OWASP AISVS categories where relevant. No certification or third-party attestation is claimed.</p>
+  </main>
+</body>
+</html>

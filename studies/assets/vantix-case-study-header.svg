@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
+  <title id="title">Vantix public case study</title>
+  <desc id="desc">Public-safe Vantix case study header with metrics and capability coverage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7e8"/>
+      <stop offset="55%" stop-color="#f7faf9"/>
+      <stop offset="100%" stop-color="#e8fff4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="320" rx="32" fill="url(#bg)"/>
+  <circle cx="1140" cy="80" r="180" fill="#2563eb" opacity="0.08"/>
+  <circle cx="80" cy="275" r="180" fill="#16a36f" opacity="0.10"/>
+  <g transform="translate(76 58)">
+    <text x="0" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#0e7a54" font-weight="900" letter-spacing="4">SANITIZED PUBLIC CASE STUDY</text>
+    <text x="0" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" fill="#172033" font-weight="900" letter-spacing="-2">90 real findings, rewritten safely</text>
+    <text x="0" y="128" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" fill="#475569">Autonomous research across web, API, source, protocol, mobile, cloud, and value-transfer systems.</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(80 190)">
+    <rect width="244" height="88" rx="20" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="24" y="45" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" fill="#2563eb" font-weight="900">90</text>
+    <text x="84" y="43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b" font-weight="800">findings</text>
+    <text x="84" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#64748b">preserved</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(350 190)">
+    <rect width="244" height="88" rx="20" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="24" y="45" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" fill="#dc2626" font-weight="900">43</text>
+    <text x="84" y="43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b" font-weight="800">critical</text>
+    <text x="84" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#64748b">by CVSS</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(620 190)">
+    <rect width="244" height="88" rx="20" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="24" y="45" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" fill="#d97706" font-weight="900">36</text>
+    <text x="84" y="43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b" font-weight="800">high</text>
+    <text x="84" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#64748b">by CVSS</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(890 190)">
+    <rect width="244" height="88" rx="20" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="24" y="45" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" fill="#16a36f" font-weight="900">5</text>
+    <text x="68" y="43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b" font-weight="800">Android</text>
+    <text x="68" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#64748b">mobile findings</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(1140 190)">
+    <rect width="244" height="88" rx="20" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="24" y="45" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" fill="#7c3aed" font-weight="900">6</text>
+    <text x="68" y="43" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b" font-weight="800">domains</text>
+    <text x="68" y="63" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#64748b">of coverage</text>
+  </g>
+</svg>

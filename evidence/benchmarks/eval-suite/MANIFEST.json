@@ -1,0 +1,85 @@
+{
+  "artifacts": {
+    "archive": "archive/vantix-benchmark-proof-pack.zip",
+    "index": "INDEX.html",
+    "website_copy": "WEBSITE_COPY.md"
+  },
+  "benchmarks": [
+    {
+      "benchmark": "OWASP Juice Shop",
+      "duration_seconds": 2.0,
+      "findings_confirmed": 0,
+      "findings_total": 0,
+      "findings_unconfirmed": 0,
+      "limitations": [],
+      "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+      "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+      "severity_distribution": {},
+      "slug": "juice-shop",
+      "status": "completed",
+      "target_url": "http://127.0.0.1:3001"
+    },
+    {
+      "benchmark": "OWASP crAPI",
+      "duration_seconds": 1.0,
+      "findings_confirmed": 0,
+      "findings_total": 0,
+      "findings_unconfirmed": 0,
+      "limitations": [],
+      "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+      "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+      "severity_distribution": {},
+      "slug": "crapi",
+      "status": "completed",
+      "target_url": "http://127.0.0.1:8888"
+    },
+    {
+      "benchmark": "OWASP BenchmarkJava",
+      "duration_seconds": 1.0,
+      "findings_confirmed": 0,
+      "findings_total": 0,
+      "findings_unconfirmed": 0,
+      "limitations": [],
+      "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+      "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+      "severity_distribution": {},
+      "slug": "benchmark-java",
+      "status": "completed",
+      "target_url": "https://127.0.0.1:8081/benchmark"
+    },
+    {
+      "benchmark": "OWASP WebGoat",
+      "duration_seconds": 2.0,
+      "findings_confirmed": 0,
+      "findings_total": 0,
+      "findings_unconfirmed": 0,
+      "limitations": [],
+      "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+      "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+      "severity_distribution": {},
+      "slug": "webgoat",
+      "status": "completed",
+      "target_url": "http://127.0.0.1:8080/WebGoat"
+    },
+    {
+      "benchmark": "DVWA",
+      "duration_seconds": 1.0,
+      "findings_confirmed": 0,
+      "findings_total": 0,
+      "findings_unconfirmed": 0,
+      "limitations": [],
+      "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+      "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+      "severity_distribution": {},
+      "slug": "dvwa",
+      "status": "completed",
+      "target_url": "http://127.0.0.1:8088"
+    }
+  ],
+  "generated_at": "2026-05-03T16:35:31.047742+00:00",
+  "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+  "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+  "status_counts": {
+    "completed": 5
+  }
+}

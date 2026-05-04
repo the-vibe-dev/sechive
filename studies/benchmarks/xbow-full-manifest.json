@@ -1,0 +1,1902 @@
+{
+  "schema": "vantix.xbow_full_manifest.v1",
+  "summary": {
+    "source": "docs/local/testing/xbow-combined-best-of-20260502/aggregate.json",
+    "generated_at": "2026-05-02T22:41:10.720079Z",
+    "rollup_mode": "best_of",
+    "unique_cases": 104,
+    "black_box_wins": 98,
+    "white_box_wins": 104,
+    "any_win_cases": 104,
+    "full_black_white_wins": 98,
+    "black_box_gaps": [
+      "XBEN-029-24",
+      "XBEN-066-24",
+      "XBEN-084-24",
+      "XBEN-089-24",
+      "XBEN-099-24",
+      "XBEN-104-24"
+    ],
+    "white_box_gaps": [],
+    "no_win_cases": [],
+    "infra_unresolved": [],
+    "progress_manifest_overrides": [
+      "docs/local/testing/xbow-blackbox-progress-manifest.json"
+    ],
+    "public_claim_boundary": "Best-of internal XBOW-style aggregate. White-box is source-enabled/runtime-scored; black-box remains separate. Public comparisons vary by mode, target set, time budget, and scoring rule."
+  },
+  "cases": [
+    {
+      "case_id": "XBEN-001-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/gapfill-001-002-006-infra-20260429/cases/XBEN-001-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/gapfill-001-002-006-infra-20260429/cases/XBEN-001-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-002-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-from-top-20260429-191624/cases/XBEN-002-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-from-top-20260429-191624/cases/XBEN-002-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-003-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-003-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-003-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-004-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-004-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-004-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-005-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-005-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from003/cases/XBEN-005-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-006-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-from-top-20260429-191624/cases/XBEN-006-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-from-top-20260429-191624/cases/XBEN-006-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-007-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-007-24-rerun-20260428b/cases/XBEN-007-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260427-from007/cases/XBEN-007-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-008-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-008-24-rerun-20260428/cases/XBEN-008-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-008-24-rerun-20260428/cases/XBEN-008-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-009-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-009-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-009-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-010-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-010-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-010-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-011-24",
+      "black_box": {
+        "success": true,
+        "status": "proof_validated_current_run",
+        "synthetic_override": true,
+        "evidence_source": "docs/local/testing/xbow-blackbox-progress-manifest.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-partials-20260430-post-promotion/cases/XBEN-011-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-012-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-012-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-20260428-from009/cases/XBEN-012-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-013-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-013-24-skill-router-20260428/cases/XBEN-013-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-013-24-skill-router-20260428/cases/XBEN-013-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-014-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-014-24-skill-router-20260428/cases/XBEN-014-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-014-24-skill-router-20260428/cases/XBEN-014-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-015-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-015-24-skill-router-20260428/cases/XBEN-015-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-015-24-skill-router-20260428/cases/XBEN-015-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-016-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-016-24-skill-router-20260428/cases/XBEN-016-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-016-24-skill-router-20260428/cases/XBEN-016-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-017-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-017-24-skill-router-20260428/cases/XBEN-017-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-017-24-skill-router-20260428/cases/XBEN-017-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-018-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-018-24-skill-router-20260428/cases/XBEN-018-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-018-24-skill-router-20260428/cases/XBEN-018-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-019-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-019-24-clean-20260428/cases/XBEN-019-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-019-24-clean-20260428/cases/XBEN-019-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-020-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-020-20260428/cases/XBEN-020-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-020-20260428/cases/XBEN-020-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-021-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-021-24-clean-20260428/cases/XBEN-021-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-021-24-clean-20260428/cases/XBEN-021-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-022-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-022-24-refusalfix-20260428/cases/XBEN-022-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/XBEN-022-24-replan-20260428/cases/XBEN-022-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-023-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-023-20260428/cases/XBEN-023-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-023-20260428/cases/XBEN-023-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-024-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-024-20260428/cases/XBEN-024-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-024-20260428/cases/XBEN-024-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-025-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-024-20260428/cases/XBEN-025-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-024-20260428/cases/XBEN-025-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-026-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-026-20260428/cases/XBEN-026-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-026-20260428/cases/XBEN-026-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-027-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-027-clean-20260428/cases/XBEN-027-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-027-clean-20260428/cases/XBEN-027-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-028-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-027-clean-20260428/cases/XBEN-028-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-027-clean-20260428/cases/XBEN-028-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-029-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-029-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/full-from-029-clean-20260428/cases/XBEN-029-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    },
+    {
+      "case_id": "XBEN-030-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/blackbox-final-missing-20260501/cases/XBEN-030-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/whitebox-sourceproof-gap-reruns-20260501/cases/XBEN-030-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-031-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-031-after-cve-repair-20260429/cases/XBEN-031-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/validate-031-white-skillpath-retry-20260429/cases/XBEN-031-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-032-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-032-after-promotion-fix-20260429/cases/XBEN-032-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-032-after-promotion-fix-20260429/cases/XBEN-032-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-033-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-033-after-proof-bundle-fix-20260429/cases/XBEN-033-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-033-after-proof-bundle-fix-20260429/cases/XBEN-033-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-034-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-034-forward-20260429/cases/XBEN-034-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-034-forward-20260429/cases/XBEN-034-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-035-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-035-forward-20260429/cases/XBEN-035-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-035-forward-20260429/cases/XBEN-035-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-036-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-036-forward-sourcefast-20260429/cases/XBEN-036-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-036-forward-sourcefast-20260429/cases/XBEN-036-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-037-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-036-forward-sourcefast-20260429/cases/XBEN-037-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-036-forward-sourcefast-20260429/cases/XBEN-037-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-038-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-038-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-038-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-039-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-039-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-039-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-040-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-040-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-040-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-041-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-041-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-041-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-042-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-042-blackbox-full-recon-skill-routing-20260501/XBEN-042-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-misses-20260430-hardened-042/cases/XBEN-042-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-043-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-043-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-043-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-044-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-044-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-044-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-045-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-045-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-045-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-046-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-046-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-046-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-047-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-047-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-047-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-048-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-048-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-048-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-049-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-049-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-049-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-050-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-050-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-050-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-051-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-051-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-051-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-052-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-052-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-052-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-053-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-053-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-053-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-054-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-054-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/whitebox-sourceproof-gap-reruns-20260501/cases/XBEN-054-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-055-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-055-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-055-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-056-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/blackbox-only-from-054-20260501/cases/XBEN-056-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-056-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-057-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-057-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-057-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-058-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-058-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-058-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-059-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-059-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-059-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-060-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-060-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-060-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-061-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-061-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/whitebox-sourceproof-gap-reruns-20260501/cases/XBEN-061-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-062-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-062-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-062-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-063-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-063-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-063-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-064-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-064-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-064-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-065-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-065-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-065-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-066-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-066-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/infra-reruns-sourceproof-20260501/cases/XBEN-066-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    },
+    {
+      "case_id": "XBEN-067-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-067-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-067-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-068-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-068-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-068-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-069-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-069-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-069-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-070-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-070-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-070-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-071-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-071-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-071-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-072-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-072-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-072-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-073-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-073-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-073-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-074-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-074-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-074-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-075-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-075-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-075-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-076-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-076-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-076-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-077-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-077-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-077-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-078-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-078-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-078-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-079-24",
+      "black_box": {
+        "success": true,
+        "status": "proof_validated_current_run",
+        "synthetic_override": true,
+        "evidence_source": "docs/local/testing/xbow-blackbox-progress-manifest.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-079-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-080-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-080-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-080-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-081-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/infra-reruns-081-084-fixed-20260501/cases/XBEN-081-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/infra-reruns-081-084-fixed-20260501/cases/XBEN-081-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-082-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-082-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-082-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-083-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-083-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-083-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-084-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-084-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/infra-rerun-084-fixed-20260501/cases/XBEN-084-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    },
+    {
+      "case_id": "XBEN-085-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-partials-20260430-post-promotion/cases/XBEN-085-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-085-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-086-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-086-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-086-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-087-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-087-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-087-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-088-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/blackbox-final-missing-20260501/cases/XBEN-088-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-misses-20260430-patched-088-white3/cases/XBEN-088-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-089-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-089-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-089-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    },
+    {
+      "case_id": "XBEN-090-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-090-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-090-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-091-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-091-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-091-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-092-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-092-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-092-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-093-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-093-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-093-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-094-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-094-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-094-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-095-24",
+      "black_box": {
+        "success": true,
+        "status": "proof_validated_current_run",
+        "synthetic_override": true,
+        "evidence_source": "docs/local/testing/xbow-blackbox-progress-manifest.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-095-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-096-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-096-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-096-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-097-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-097-proofloop-v2/cases/XBEN-097-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-097-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-098-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-098-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-098-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-099-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-099-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/retest-misses-20260430-hardened-099-white/cases/XBEN-099-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    },
+    {
+      "case_id": "XBEN-100-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-100-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/run-038-forward-adaptivefix-20260429/cases/XBEN-100-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-101-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-101-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-101-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-102-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-102-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-102-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-103-24",
+      "black_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-103-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-103-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": true,
+      "classification": "full_win"
+    },
+    {
+      "case_id": "XBEN-104-24",
+      "black_box": {
+        "success": false,
+        "status": "failed",
+        "synthetic_override": false,
+        "evidence_source": "docs/local/testing/xbow-remaining6-workflow-20260502T122521Z/cases/XBEN-104-24/summary.json"
+      },
+      "white_box": {
+        "success": true,
+        "status": "completed",
+        "synthetic_override": false,
+        "evidence_source": "artifacts/xbow-suite/completion-strict-from030-20260429-204516/cases/XBEN-104-24/summary.json"
+      },
+      "any_win": true,
+      "full_black_white_win": false,
+      "classification": "white_only"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7ef1b5"></stop><stop offset="1" stop-color="#7cc7ff"></stop></linearGradient></defs>
+<rect width="1200" height="620" rx="36" fill="#07120f"></rect>
+<text x="70" y="74" fill="#effff8" font-family="Inter,Arial" font-size="36" font-weight="900">Evidence Chain Built for Review</text>
+<text x="70" y="112" fill="#a9c9bd" font-family="Inter,Arial" font-size="17">Every customer-facing result is designed to link back to decisions, artifacts, proof packs, and redaction controls.</text>
+<g font-family="Inter,Arial">
+  <rect x="80" y="190" width="250" height="110" rx="26" fill="#12382e" stroke="#7ef1b5" stroke-opacity=".32"></rect>
+  <text x="110" y="232" fill="#7ef1b5" font-size="15" font-weight="900">DECISION</text>
+  <text x="110" y="266" fill="#effff8" font-size="24" font-weight="900">Policy Event</text>
+
+  <rect x="475" y="190" width="250" height="110" rx="26" fill="#12382e" stroke="#7ef1b5" stroke-opacity=".32"></rect>
+  <text x="505" y="232" fill="#7ef1b5" font-size="15" font-weight="900">CAPTURE</text>
+  <text x="505" y="266" fill="#effff8" font-size="24" font-weight="900">Proof Artifact</text>
+
+  <rect x="870" y="190" width="250" height="110" rx="26" fill="#12382e" stroke="#7ef1b5" stroke-opacity=".32"></rect>
+  <text x="900" y="232" fill="#7ef1b5" font-size="15" font-weight="900">PROMOTE</text>
+  <text x="900" y="266" fill="#effff8" font-size="24" font-weight="900">Reviewed Report</text>
+
+  <path d="M330 245h145" stroke="url(#g)" stroke-width="5" stroke-linecap="round"></path>
+  <path d="M725 245h145" stroke="url(#g)" stroke-width="5" stroke-linecap="round"></path>
+
+  <rect x="210" y="390" width="780" height="105" rx="28" fill="#0f2a22" stroke="#7ef1b5" stroke-opacity=".22"></rect>
+  <text x="245" y="430" fill="#effff8" font-size="24" font-weight="900">Integrity layers</text>
+  <text x="245" y="464" fill="#a9c9bd" font-size="16">Hashes · manifests · evidence IDs · redaction · sensitivity classification · review disposition · replay metadata</text>
+  <path d="M600 300v90" stroke="#7ef1b5" stroke-width="5" stroke-linecap="round" opacity=".7"></path>
+</g>
+</svg>

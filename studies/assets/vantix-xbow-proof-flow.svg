@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Vantix benchmark proof flow</title>
+  <desc id="desc">Flow diagram showing scope, recon, skill routing, hypothesis planning, validation, promotion, and learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#eff8ff"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="540" rx="34" fill="url(#bg)"/>
+  <text x="68" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="850" fill="#172033">The proof-first benchmark loop</text>
+  <text x="70" y="116" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#64748b">Vantix treats a benchmark target like a controlled security engagement: discover, route, test, prove, and learn without memorizing cases.</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g>
+      <rect x="70" y="188" width="170" height="116" rx="20" fill="#ffffff" stroke="#d8e3e0" stroke-width="2"/>
+      <text x="94" y="226" font-size="18" font-weight="800" fill="#172033">1. Scope</text>
+      <text x="94" y="258" font-size="14" fill="#64748b">authorized target</text>
+      <text x="94" y="280" font-size="14" fill="#64748b">mode boundary</text>
+    </g>
+    <path d="M246 246 H318" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="326" y="188" width="170" height="116" rx="20" fill="#ffffff" stroke="#d8e3e0" stroke-width="2"/>
+      <text x="350" y="226" font-size="18" font-weight="800" fill="#172033">2. Recon</text>
+      <text x="350" y="258" font-size="14" fill="#64748b">routes, services</text>
+      <text x="350" y="280" font-size="14" fill="#64748b">source, browser</text>
+    </g>
+    <path d="M502 246 H574" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="582" y="188" width="170" height="116" rx="20" fill="#ffffff" stroke="#d8e3e0" stroke-width="2"/>
+      <text x="606" y="226" font-size="18" font-weight="800" fill="#172033">3. Route</text>
+      <text x="606" y="258" font-size="14" fill="#64748b">specialist skills</text>
+      <text x="606" y="280" font-size="14" fill="#64748b">capability ledger</text>
+    </g>
+    <path d="M758 246 H830" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="838" y="188" width="170" height="116" rx="20" fill="#ffffff" stroke="#d8e3e0" stroke-width="2"/>
+      <text x="862" y="226" font-size="18" font-weight="800" fill="#172033">4. Validate</text>
+      <text x="862" y="258" font-size="14" fill="#64748b">live execution</text>
+      <text x="862" y="280" font-size="14" fill="#64748b">negative evidence</text>
+    </g>
+    <path d="M925 310 C925 384 759 416 676 416 C556 416 450 384 416 320" stroke="#16a36f" stroke-width="4" fill="none" marker-end="url(#arrow)" opacity="0.9"/>
+    <g>
+      <rect x="452" y="364" width="300" height="106" rx="22" fill="#0f172a"/>
+      <text x="482" y="404" font-size="19" font-weight="850" fill="#ffffff">5. Promote or replan</text>
+      <text x="482" y="435" font-size="14" fill="#c9f3e6">proof packs, reports, reusable learning</text>
+    </g>
+  </g>
+
+  <rect x="78" y="362" width="250" height="76" rx="18" fill="#e9f8f2" stroke="#bae8d4"/>
+  <text x="104" y="394" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" fill="#16694a">Key lesson</text>
+  <text x="104" y="419" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#336b57">Capability upgrades beat benchmark memorization.</text>
+</svg>

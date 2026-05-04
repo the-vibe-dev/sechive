@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bug bounty proof pack — SecHive</title>
+<meta name="description" content="SecHive BBP proof pack: 90 sanitized results.">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="icon" href="../assets/img/sechive-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="../index.html"><span class="mark"><img src="../assets/img/sechive-mark.svg" alt=""></span> SecHive<span class="ai">.ai</span></a>
+    <nav class="nav-primary" data-nav-primary>
+      <div class="has-dd"><a href="../platform.html">Platform <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../platform.html">The SecHive Loop<span class="dd-meta">recon → hypothesis → proof</span></a>
+          <a href="../solutions.html">Solutions & run modes<span class="dd-meta">pentest, bbp, source audit, mobile, RE</span></a>
+          <a href="../benchmarks.html">Benchmarks<span class="dd-meta">XBOW · Juice Shop · GOAD · WrongSecrets</span></a>
+        </div>
+      </div>
+      <div class="has-dd"><a href="../compliance.html">Compliance <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../compliance/nis-2.html">NIS 2 Directive<span class="dd-meta">EU · cyber resilience</span></a>
+          <a href="../compliance/dora.html">DORA<span class="dd-meta">EU · financial sector</span></a>
+          <a href="../compliance/soc-2.html">SOC 2<span class="dd-meta">trust services criteria</span></a>
+          <a href="../compliance/pci-dss.html">PCI DSS 4.0<span class="dd-meta">payment cards · req. 11</span></a>
+          <a href="../compliance/iso-27001.html">ISO/IEC 27001<span class="dd-meta">A.8.8 / A.8.29</span></a>
+          <a href="../compliance/hipaa.html">HIPAA Security Rule<span class="dd-meta">§164.308(a)(8)</span></a>
+        </div>
+      </div>
+      <div class="has-dd"><a href="../case-studies.html" style="color:var(--blue-deep)">Proof <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../case-studies.html">All case studies</a>
+          <a href="../case-studies/runtime-authorization-replay.html">Runtime authorization replay</a>
+          <a href="../case-studies/validation-boundary-bypass.html">Validation boundary bypass</a>
+          <a href="../case-studies/cross-domain-logic-abuse.html">Cross-domain logic abuse</a>
+          <a href="../case-studies/xbow-campaign.html">XBOW-style campaign</a>
+          <a href="../case-studies/bug-bounty.html">Bug bounty proof pack</a>
+        </div>
+      </div>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../faq.html">FAQ</a>
+    </nav>
+    <a class="nav-cta" href="../contact.html">Book a demo <span class="arrow">→</span></a>
+    <button class="menu-btn" data-menu-toggle aria-expanded="false">Menu</button>
+  </div>
+</header>
+<div class="ribbon"><div class="container"><span><span class="dot">●</span> Proof pack</span><span>90 results</span><span>HackerOne-shaped</span><span>No payout claim</span></div></div>
+<section class="hero" style="padding-top:48px"><div class="container">
+<p class="crumbs"><a href="../case-studies.html">Proof</a> <span class="sep">/</span> Bug bounty proof pack</p>
+<div class="eyebrow" style="margin-top:18px">CS.05 — External proof</div>
+<h1 style="margin-top:14px; max-width:18ch">Bug bounty <span class="display-italic accent">breadth</span>.</h1>
+<p class="lede" style="margin-top:24px">Most public AI-security demos stop at one of three points: a benchmark scan, a chat transcript, or a source-only suspicion. This proof pack is different. Ninety results across six method families, shaped for a HackerOne triager.</p>
+</div></section>
+
+<section class="section"><div class="container">
+<div class="metric-strip">
+<div class="m"><div class="v">90</div><div class="l">Sanitized results</div></div>
+<div class="m"><div class="v">10</div><div class="l">In HackerOne review</div></div>
+<div class="m"><div class="v">6</div><div class="l">Method families</div></div>
+<div class="m"><div class="v">0</div><div class="l">Payout claims</div></div>
+</div>
+
+<div class="section-head" style="margin-top:64px"><div><div class="eyebrow">§ Method coverage</div><h2 class="tight">Six families, one proof shape.</h2></div><div class="right"><p>Each family is documented with a top-find write-up that preserves vulnerability logic and review value while removing target identifiers.</p></div></div>
+
+<ol class="ledger" style="padding-left:0">
+<li><span class="idx">M.01</span><span class="ttl">Business logic / runtime validation</span><span class="desc">Replay, duplicate execution, stale authorization, payment state mismatch.</span><a class="badge info" href="runtime-authorization-replay.html">Featured →</a></li>
+<li><span class="idx">M.02</span><span class="ttl">Source-first policy review</span><span class="desc">Denylist gaps, finality downgrade, controller revocation, unsafe validation boundary.</span><a class="badge info" href="validation-boundary-bypass.html">Featured →</a></li>
+<li><span class="idx">M.03</span><span class="ttl">Cross-domain protocol reasoning</span><span class="desc">Asset rebind, forwarding mismatch, bridge / cross-chain state inconsistency.</span><a class="badge info" href="cross-domain-logic-abuse.html">Featured →</a></li>
+<li><span class="idx">M.04</span><span class="ttl">Auth and identity</span><span class="desc">Step-up bypass, callback / token leakage, login-state confusion.</span><span class="badge">in inventory</span></li>
+<li><span class="idx">M.05</span><span class="ttl">Mobile and exported interfaces</span><span class="desc">Broadcast injection, exported providers, binder / interface exposure.</span><span class="badge">in inventory</span></li>
+<li><span class="idx">M.06</span><span class="ttl">Cloud and configuration</span><span class="desc">Secret exposure, public debug / RPC surfaces, static management dumps.</span><span class="badge">in inventory</span></li>
+</ol>
+
+<h2 style="margin-top:64px">Public-safety boundary</h2>
+<p>The bug bounty pages present only public-safe mechanisms, proof standards and remediation patterns. They intentionally remove target names, domains, report IDs, package identifiers, secrets, hashes and reusable production exploit steps. No paid bounty outcome is claimed.</p>
+
+<h2 style="margin-top:48px">Sample of the redacted inventory</h2>
+<div class="table-wrap"><table class="data">
+<thead><tr><th>ID</th><th>Redacted result</th></tr></thead>
+<tbody>
+<tr><td>BB-001</td><td>Exported account log bridge exposes sensitive operational data</td></tr>
+<tr><td>BB-002</td><td>Open account interface brokers token material across a trust boundary</td></tr>
+<tr><td>BB-003</td><td>Cross-origin login-state endpoint leaks authentication context</td></tr>
+<tr><td>BB-004</td><td>Public cloud business-secret and auth bootstrap material exposure</td></tr>
+<tr><td>BB-005</td><td>Authorisation replay across a privileged action boundary</td></tr>
+<tr><td>BB-006</td><td>Validation enforced on outbound, skipped on inbound recipient release</td></tr>
+<tr><td>BB-007</td><td>Forwarding calldata rebinds asset across cross-domain authorisation</td></tr>
+<tr><td>BB-008</td><td>Exported broadcast accepts privileged action without intent verification</td></tr>
+<tr><td>BB-009</td><td>Step-up boundary skipped for sensitive account mutation</td></tr>
+<tr><td>…</td><td>(complete inventory available under engagement)</td></tr>
+</tbody></table></div>
+</div></section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <a class="brand" href="../index.html"><span class="mark"><img src="../assets/img/sechive-mark.svg" alt=""></span> SecHive<span class="ai">.ai</span></a>
+        <p class="blurb">Proof-first autonomous security for systems, source, apps, devices and labs you are authorized to test.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="../platform.html">The Loop</a></li>
+          <li><a href="../solutions.html">Run modes</a></li>
+          <li><a href="../benchmarks.html">Benchmarks</a></li>
+          <li><a href="../pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compliance</h4>
+        <ul>
+          <li><a href="../compliance/nis-2.html">NIS 2</a></li>
+          <li><a href="../compliance/dora.html">DORA</a></li>
+          <li><a href="../compliance/soc-2.html">SOC 2</a></li>
+          <li><a href="../compliance/pci-dss.html">PCI DSS 4.0</a></li>
+          <li><a href="../compliance/iso-27001.html">ISO 27001</a></li>
+          <li><a href="../compliance/hipaa.html">HIPAA</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Proof</h4>
+        <ul>
+          <li><a href="../case-studies.html">All case studies</a></li>
+          <li><a href="../case-studies/bug-bounty.html">Bug bounty pack</a></li>
+          <li><a href="../benchmarks/juice-shop.html">Juice Shop</a></li>
+          <li><a href="../benchmarks/xbow.html">XBOW campaign</a></li>
+          <li><a href="../benchmarks/goad.html">GOAD <span style="color:#7CB1FF">soon</span></a></li>
+          <li><a href="../benchmarks/wrongsecrets.html">WrongSecrets <span style="color:#7CB1FF">soon</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../faq.html">FAQ</a></li>
+          <li><a href="../security.html">Responsible disclosure</a></li>
+          <li><a href="../privacy.html">Privacy</a></li>
+          <li><a href="../legal.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 SecHive.ai. Authorized use only.</span>
+      <span>Local-first · Proof-first · Operator-grade</span>
+      <span>v4.A · build 2026.05</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

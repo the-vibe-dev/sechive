@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 820" width="1440" height="820">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E1A36"></stop><stop offset="1" stop-color="#15224A"></stop></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="0%" r="60%"><stop stop-color="#E2A52A" stop-opacity=".22"></stop><stop offset="1" stop-color="#E2A52A" stop-opacity="0"></stop></radialGradient>
+</defs>
+<rect width="1440" height="820" rx="34" fill="url(#bg)"></rect>
+<rect width="1440" height="420" fill="url(#glow)"></rect>
+<text x="80" y="92" font-family="Sora, Manrope, system-ui" font-size="46" font-weight="700" fill="#FBF8F0" letter-spacing="-1.5">Report outputs that map to buyer workflows</text>
+<text x="80" y="134" font-family="Manrope, system-ui" font-size="20" fill="#DDD8C7">SecHive does not stop at findings. It produces deliverables for executives, engineers, auditors, triagers, and SOC teams.</text>
+<g font-family="Manrope, system-ui" fill="#DDD8C7">
+  <rect x="80" y="190" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="120" y="246" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">SOC 2 support packet</text><text x="120" y="286" font-size="17">Scope, methods, results, remediation, retest evidence.</text><rect x="120" y="306" width="36" height="3" fill="#E2A52A"></rect>
+  <rect x="525" y="190" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="565" y="246" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">ISO / NIST crosswalk</text><text x="565" y="286" font-size="17">Mapped controls, testing proof, exceptions, actions.</text><rect x="565" y="306" width="36" height="3" fill="#E2A52A"></rect>
+  <rect x="970" y="190" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="1010" y="246" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">Bug bounty report</text><text x="1010" y="286" font-size="17">Impact, steps, evidence, scope statement, upload manifest.</text><rect x="1010" y="306" width="36" height="3" fill="#E2A52A"></rect>
+  <rect x="80" y="410" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="120" y="466" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">Technical pentest</text><text x="120" y="506" font-size="17">Attack chains, evidence artifacts, remediation, reproduction.</text><rect x="120" y="526" width="36" height="3" fill="#E2A52A"></rect>
+  <rect x="525" y="410" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="565" y="466" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">AI assurance report</text><text x="565" y="506" font-size="17">APTS / AISVS mapping, autonomy limits, logging, oversight.</text><rect x="565" y="526" width="36" height="3" fill="#E2A52A"></rect>
+  <rect x="970" y="410" width="390" height="160" rx="14" fill="#15224A" stroke="#2A3F70"></rect><text x="1010" y="466" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#FBF8F0">SOC handoff</text><text x="1010" y="506" font-size="17">Detection opportunities, containment steps, telemetry notes.</text><rect x="1010" y="526" width="36" height="3" fill="#E2A52A"></rect>
+</g>
+<rect x="305" y="650" width="830" height="78" rx="14" fill="#E2A52A"></rect><text x="720" y="700" font-family="Sora, system-ui" font-size="24" font-weight="700" fill="#0E1A36" text-anchor="middle">One engine. Many report-ready outcomes.</text>
+</svg>

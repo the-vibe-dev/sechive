@@ -1,0 +1,16 @@
+{
+  "allowed_hosts": [
+    "127.0.0.1",
+    "localhost"
+  ],
+  "allowed_ports": [
+    8080
+  ],
+  "block_external_egress": true,
+  "evidence_capture": true,
+  "report_generation": true,
+  "request_response_proof": true,
+  "safety": "local intentionally vulnerable benchmark target only",
+  "screenshots": true,
+  "target_url": "http://127.0.0.1:8080/WebGoat"
+}

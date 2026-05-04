@@ -1,0 +1,33 @@
+# Local and generated noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Private/raw security material
+raw/
+raw-logs/
+captures/
+sessions/
+cookies/
+tokens/
+secrets/
+*.har
+*.pcap
+*.pcapng
+*.kdbx
+*.key
+*.pem
+*.p12
+
+# Local build/editor state
+node_modules/
+.venv/
+venv/
+.idea/
+.vscode/

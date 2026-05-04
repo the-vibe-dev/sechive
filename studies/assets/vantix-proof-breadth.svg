@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Vantix breadth comparison</title>
+  <desc id="desc">Comparison graphic showing Vantix coverage beyond scanner-only, chat-only, source-only, and benchmark-only tools.</desc>
+  <rect width="1200" height="360" rx="30" fill="#f8fafc"/>
+  <text x="62" y="62" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" fill="#172033" font-weight="900">Where Vantix stands out</text>
+  <text x="62" y="96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#64748b">Breadth plus proof discipline: real bug bounty patterns, safe benchmark reproduction, and reviewer-ready evidence.</text>
+
+  <g transform="translate(62 134)">
+    <rect width="210" height="160" rx="22" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="22" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#475569" font-weight="900">Scanner-only</text>
+    <text x="22" y="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">finds signatures</text>
+    <text x="22" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">weak on proof</text>
+    <text x="22" y="138" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">limited logic depth</text>
+  </g>
+  <g transform="translate(300 134)">
+    <rect width="210" height="160" rx="22" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="22" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#475569" font-weight="900">Chat-only</text>
+    <text x="22" y="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">good explanations</text>
+    <text x="22" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">thin evidence</text>
+    <text x="22" y="138" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">hard to verify</text>
+  </g>
+  <g transform="translate(538 134)">
+    <rect width="210" height="160" rx="22" fill="#ffffff" stroke="#d8e3e0"/>
+    <text x="22" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#475569" font-weight="900">Source-only</text>
+    <text x="22" y="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">strong candidates</text>
+    <text x="22" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">runtime gap</text>
+    <text x="22" y="138" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#64748b">triage burden</text>
+  </g>
+  <g transform="translate(776 110)">
+    <rect width="360" height="208" rx="28" fill="#0f172a"/>
+    <text x="28" y="52" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" fill="#ffffff" font-weight="900">Vantix</text>
+    <text x="28" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#bfdbfe" font-weight="800">recon → skill routing → proof → report</text>
+    <g transform="translate(28 114)">
+      <rect width="118" height="28" rx="14" fill="#fee2e2"/>
+      <text x="14" y="19" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#991b1b" font-weight="900">real bugs</text>
+      <rect x="132" width="128" height="28" rx="14" fill="#dcfce7"/>
+      <text x="146" y="19" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#166534" font-weight="900">safe proof</text>
+    </g>
+    <text x="28" y="174" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Bug bounty + Juice Shop + source + mobile + protocol</text>
+  </g>
+</svg>

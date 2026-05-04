@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 780">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101c"></stop><stop offset=".52" stop-color="#0a1a30"></stop><stop offset="1" stop-color="#06101c"></stop></linearGradient>
+<linearGradient id="blue" x1="0" x2="1"><stop stop-color="#1f6cff"></stop><stop offset="1" stop-color="#46adff"></stop></linearGradient>
+<linearGradient id="green" x1="0" x2="1"><stop stop-color="#22c55e"></stop><stop offset="1" stop-color="#38f08f"></stop></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="b"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter>
+</defs>
+<rect width="1440" height="780" rx="34" fill="url(#bg)"></rect>
+<g opacity=".28" stroke="#1f6cff" fill="none"><path d="M800 620 C1000 400 1100 710 1260 450 S1370 390 1440 350" stroke-width="2"></path><path d="M0 670 C310 550 430 720 710 600 S970 520 1440 680" stroke-width="2"></path></g>
+<text x="76" y="86" font-family="Inter,Arial" font-size="44" font-weight="900" fill="#fff">VANTIX BENCHMARK PROOF</text>
+<text x="76" y="126" font-family="Inter,Arial" font-size="20" fill="#9fb3c8">Full 104-case XBOW aggregate · black-box + source-enabled results separated · white-box complete update</text>
+<g font-family="Inter,Arial">
+<rect x="76" y="178" width="600" height="206" rx="28" fill="#0f1f39" stroke="#1e3354"></rect>
+<text x="120" y="236" font-size="23" fill="#9fb3c8" letter-spacing="2">BLACK-BOX SUCCESS</text>
+<text x="120" y="322" font-size="88" font-weight="950" fill="#fff">94.23%</text>
+<text x="470" y="322" font-size="30" font-weight="900" fill="#46adff">98 / 104</text>
+<text x="120" y="360" font-size="18" fill="#9fb3c8">Live target behavior only. No source access.</text>
+<rect x="764" y="178" width="600" height="206" rx="28" fill="#0f1f39" stroke="#1e3354"></rect>
+<text x="808" y="236" font-size="23" fill="#9fb3c8" letter-spacing="2">WHITE-BOX SUCCESS</text>
+<text x="808" y="322" font-size="88" font-weight="950" fill="#fff">100%</text>
+<text x="1155" y="322" font-size="30" font-weight="900" fill="#38f08f">104 / 104</text>
+<text x="808" y="360" font-size="18" fill="#9fb3c8">Operator-confirmed final closure after aggregate snapshot.</text>
+</g>
+<g font-family="Inter,Arial" font-size="20" fill="#dce8f8">
+<text x="88" y="475">Vantix black-box</text><rect x="360" y="452" width="820" height="30" rx="15" fill="#172a46"></rect><rect x="360" y="452" width="773" height="30" rx="15" fill="url(#blue)" filter="url(#glow)"></rect><text x="1205" y="475">94.23%</text>
+<text x="88" y="535">Vantix white-box</text><rect x="360" y="512" width="820" height="30" rx="15" fill="#172a46"></rect><rect x="360" y="512" width="820" height="30" rx="15" fill="url(#green)" filter="url(#glow)"></rect><text x="1205" y="535">100%</text>
+<text x="88" y="595">XBOW published</text><rect x="360" y="572" width="820" height="30" rx="15" fill="#172a46"></rect><rect x="360" y="572" width="697" height="30" rx="15" fill="#2f78ff"></rect><text x="1205" y="595">85%</text>
+<text x="88" y="655">Xfenser public</text><rect x="360" y="632" width="820" height="30" rx="15" fill="#172a46"></rect><rect x="360" y="632" width="726" height="30" rx="15" fill="#2f78ff"></rect><text x="1205" y="655">88.5%</text>
+</g>
+<text x="76" y="730" font-family="Inter,Arial" font-size="16" fill="#8ba2bd">Competitor methodologies differ. Public materials should separate black-box, source-enabled, best-of-N, retained-artifact, and unknown-methodology claims.</text>
+</svg>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SecHive Studies</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #152126;
+        --muted: #63717a;
+        --line: #d9e3e8;
+        --paper: #fbfcfd;
+        --field: #eef4f7;
+        --accent: #138a72;
+        --accent-2: #214cce;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.5;
+      }
+      header {
+        padding: 32px max(24px, calc((100vw - 1120px) / 2)) 24px;
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+      }
+      main {
+        width: min(1120px, calc(100vw - 48px));
+        margin: 0 auto;
+        padding: 36px 0 56px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand img {
+        height: 34px;
+        width: auto;
+      }
+      h1 {
+        margin: 22px 0 10px;
+        font-size: clamp(2rem, 4vw, 4.2rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+      p {
+        max-width: 760px;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 14px;
+        margin-top: 28px;
+      }
+      a.card {
+        display: block;
+        min-height: 150px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: inherit;
+        text-decoration: none;
+      }
+      a.card:hover {
+        border-color: var(--accent);
+        box-shadow: 0 8px 28px rgba(20, 54, 65, .08);
+      }
+      .card strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1.02rem;
+      }
+      .card span {
+        color: var(--muted);
+        font-size: .94rem;
+      }
+      .band {
+        margin-top: 34px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--field);
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: .92em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <img src="assets/img/sechive-wordmark.svg" alt="SecHive" />
+      </div>
+      <h1>SecHive Studies</h1>
+      <p>Public-safe case studies, methodology, sanitized evidence, and shareable report examples for security assessment capabilities.</p>
+    </header>
+    <main>
+      <section class="grid" aria-label="Study links">
+        <a class="card" href="../studies/public-case-studies.md"><strong>Case Study Index</strong><span>Capability stories and evidence-backed examples.</span></a>
+        <a class="card" href="../methodology/benchmark-methodology.md"><strong>Methodology</strong><span>How benchmark and assessment evidence is gathered and bounded.</span></a>
+        <a class="card" href="../methodology/proof-pack.md"><strong>Proof Packs</strong><span>What proof material is expected for completed findings.</span></a>
+        <a class="card" href="../evidence/benchmarks/eval-suite/EXECUTIVE_SUMMARY.md"><strong>Benchmark Evidence</strong><span>Sanitized run outputs, scorecards, screenshots, and reports.</span></a>
+        <a class="card" href="../evidence/juice-shop/latest-good-run/run_report.html"><strong>Completed Run Report</strong><span>Customer-friendly HTML report from a completed training target run.</span></a>
+        <a class="card" href="../REDACTION_POLICY.md"><strong>Redaction Policy</strong><span>Publication boundaries for private and sensitive material.</span></a>
+      </section>
+      <section class="band">
+        <strong>Repository boundary:</strong>
+        <p>This portal intentionally excludes source code, raw logs, tokens, cookies, replay scripts, private bug bounty submissions, and local runtime state. See <code>MANIFEST.json</code> for the included artifact groups.</p>
+      </section>
+    </main>
+  </body>
+</html>

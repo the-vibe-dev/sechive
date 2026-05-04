@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Skill Match UI placeholder</title>
+  <desc id="desc">Placeholder showing the Vantix Skill Match panel structure.</desc>
+  <rect width="1200" height="720" fill="#101418"/>
+  <rect x="48" y="48" width="1104" height="624" rx="8" fill="#161d22" stroke="#2d3a42"/>
+  <text x="82" y="106" fill="#e8eef2" font-family="Inter, sans-serif" font-size="34">Skill Match</text>
+  <text x="82" y="144" fill="#9fb1bd" font-family="Inter, sans-serif" font-size="18">Detected surfaces, routed skills, evidence references, and gate status</text>
+  <g fill="#22313a" stroke="#3a4c56">
+    <rect x="82" y="188" width="160" height="42" rx="6"/>
+    <rect x="258" y="188" width="170" height="42" rx="6"/>
+    <rect x="444" y="188" width="150" height="42" rx="6"/>
+    <rect x="610" y="188" width="190" height="42" rx="6"/>
+  </g>
+  <g fill="#b8c8d1" font-family="Inter, sans-serif" font-size="16">
+    <text x="106" y="215">HTTP routes</text>
+    <text x="282" y="215">Object IDs</text>
+    <text x="468" y="215">JWT</text>
+    <text x="634" y="215">Source sinks</text>
+  </g>
+  <g>
+    <rect x="82" y="276" width="1036" height="96" rx="8" fill="#1b262d" stroke="#3a4c56"/>
+    <text x="112" y="318" fill="#e8eef2" font-family="Inter, sans-serif" font-size="22">API Security</text>
+    <text x="112" y="350" fill="#9fb1bd" font-family="Inter, sans-serif" font-size="16">91% applied - GraphQL, JWT, object id params</text>
+    <rect x="948" y="306" width="120" height="34" rx="6" fill="#1f3f31"/>
+    <text x="978" y="329" fill="#9ee6bd" font-family="Inter, sans-serif" font-size="15">applied</text>
+  </g>
+  <g>
+    <rect x="82" y="396" width="1036" height="96" rx="8" fill="#1b262d" stroke="#3a4c56"/>
+    <text x="112" y="438" fill="#e8eef2" font-family="Inter, sans-serif" font-size="22">Business Logic</text>
+    <text x="112" y="470" fill="#9fb1bd" font-family="Inter, sans-serif" font-size="16">76% recommended - checkout/order workflow</text>
+    <rect x="948" y="426" width="120" height="34" rx="6" fill="#4a391a"/>
+    <text x="966" y="449" fill="#ffd486" font-family="Inter, sans-serif" font-size="15">recommended</text>
+  </g>
+  <g>
+    <rect x="82" y="516" width="1036" height="96" rx="8" fill="#1b262d" stroke="#3a4c56"/>
+    <text x="112" y="558" fill="#e8eef2" font-family="Inter, sans-serif" font-size="22">AD Attacker</text>
+    <text x="112" y="590" fill="#9fb1bd" font-family="Inter, sans-serif" font-size="16">blocked - no AD evidence or approved program scope</text>
+    <rect x="948" y="546" width="120" height="34" rx="6" fill="#4a1f28"/>
+    <text x="980" y="569" fill="#ff9faf" font-family="Inter, sans-serif" font-size="15">blocked</text>
+  </g>
+</svg>

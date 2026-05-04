@@ -1,0 +1,14 @@
+{
+  "benchmark": "OWASP Juice Shop",
+  "duration_seconds": 2.0,
+  "findings_confirmed": 0,
+  "findings_total": 0,
+  "findings_unconfirmed": 0,
+  "limitations": [],
+  "owasp_language": "internally assessed against OWASP APTS and OWASP AISVS categories",
+  "safe_claim": "internally benchmarked against local intentionally vulnerable targets",
+  "severity_distribution": {},
+  "slug": "juice-shop",
+  "status": "completed",
+  "target_url": "http://127.0.0.1:3001"
+}

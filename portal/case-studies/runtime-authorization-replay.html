@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Runtime authorization replay — SecHive</title>
+<meta name="description" content="Featured SecHive bug bounty pattern: replay_auth.">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="icon" href="../assets/img/sechive-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="../index.html"><span class="mark"><img src="../assets/img/sechive-mark.svg" alt=""></span> SecHive<span class="ai">.ai</span></a>
+    <nav class="nav-primary" data-nav-primary>
+      <div class="has-dd"><a href="../platform.html">Platform <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../platform.html">The SecHive Loop<span class="dd-meta">recon → hypothesis → proof</span></a>
+          <a href="../solutions.html">Solutions & run modes<span class="dd-meta">pentest, bbp, source audit, mobile, RE</span></a>
+          <a href="../benchmarks.html">Benchmarks<span class="dd-meta">XBOW · Juice Shop · GOAD · WrongSecrets</span></a>
+        </div>
+      </div>
+      <div class="has-dd"><a href="../compliance.html">Compliance <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../compliance/nis-2.html">NIS 2 Directive<span class="dd-meta">EU · cyber resilience</span></a>
+          <a href="../compliance/dora.html">DORA<span class="dd-meta">EU · financial sector</span></a>
+          <a href="../compliance/soc-2.html">SOC 2<span class="dd-meta">trust services criteria</span></a>
+          <a href="../compliance/pci-dss.html">PCI DSS 4.0<span class="dd-meta">payment cards · req. 11</span></a>
+          <a href="../compliance/iso-27001.html">ISO/IEC 27001<span class="dd-meta">A.8.8 / A.8.29</span></a>
+          <a href="../compliance/hipaa.html">HIPAA Security Rule<span class="dd-meta">§164.308(a)(8)</span></a>
+        </div>
+      </div>
+      <div class="has-dd"><a href="../case-studies.html" style="color:var(--blue-deep)">Proof <span style="opacity:.5">▾</span></a>
+        <div class="dd">
+          <a href="../case-studies.html">All case studies</a>
+          <a href="../case-studies/runtime-authorization-replay.html">Runtime authorization replay</a>
+          <a href="../case-studies/validation-boundary-bypass.html">Validation boundary bypass</a>
+          <a href="../case-studies/cross-domain-logic-abuse.html">Cross-domain logic abuse</a>
+          <a href="../case-studies/xbow-campaign.html">XBOW-style campaign</a>
+          <a href="../case-studies/bug-bounty.html">Bug bounty proof pack</a>
+        </div>
+      </div>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../faq.html">FAQ</a>
+    </nav>
+    <a class="nav-cta" href="../contact.html">Book a demo <span class="arrow">→</span></a>
+    <button class="menu-btn" data-menu-toggle aria-expanded="false">Menu</button>
+  </div>
+</header>
+<div class="ribbon"><div class="container"><span><span class="dot">●</span> Pattern</span><span>replay_auth</span><span>Business logic</span><span>Public-safe</span></div></div>
+<section class="hero" style="padding-top:48px"><div class="container">
+<p class="crumbs"><a href="../case-studies.html">Proof</a> <span class="sep">/</span> Runtime authorization replay</p>
+<div class="cv-hero" style="margin-top:18px">
+<div>
+<div class="eyebrow">CS.01 — Featured pattern</div>
+<h1 style="margin-top:14px">Runtime authorization <span class="display-italic accent">replay</span>.</h1>
+<p class="lede" style="margin-top:24px">A runtime authorization workflow accepted a signed one-time action. The signed material included a nonce-like value, but neither the validation layer nor the execution wrapper consumed that nonce in durable state. Possession of one valid authorization was enough to execute the same privileged action more than once.</p>
+</div>
+<div class="meta">
+<div class="row"><span class="k">Pattern ID</span><span class="v">replay_auth</span></div>
+<div class="row"><span class="k">Category</span><span class="v">Business Logic</span></div>
+<div class="row"><span class="k">CVSS:4.0</span><span class="v">High / Critical</span></div>
+<div class="row"><span class="k">Detection</span><span class="v">bizlogic_hunter</span></div>
+<div class="row"><span class="k">Validation</span><span class="v">poc_validator</span></div>
+<div class="row"><span class="k">Disclosure</span><span class="v">public-safe</span></div>
+</div>
+</div>
+</div></section>
+
+<section class="section"><div class="container container-narrow article">
+<div class="callout"><strong>Public safety boundary.</strong> This page generalizes a real externally validated vulnerability pattern. Target names, production accounts, customer data, private repository paths, credentials, keys, domains, and exploitable production payloads are intentionally absent.</div>
+
+<h2>The invariant</h2>
+<blockquote>One signed runtime authorization must authorize one execution.</blockquote>
+
+<p>The observed behavior violated that invariant. The system accepted the same signed bytes twice, applied the same privileged side effect twice, and produced two execution receipts that differed only in their digest.</p>
+
+<h2>The chain</h2>
+<div class="chain" style="margin-top:24px">
+<div class="chain-item"><div class="n">1</div><div class="b"><h4>Signed authorization issued</h4><p>The required authorizers signed a single one-time action. The signed material included a nonce-like value (nonce, intent ID, request ID) intended to make the authorization unique.</p></div></div>
+<div class="chain-item"><div class="n">2</div><div class="b"><h4>First execution succeeds</h4><p>The relayer submitted the signed authorization. The validation function ran a stateless check on signature freshness and authoriser membership. The execution wrapper performed the privileged side effect and produced a receipt.</p></div></div>
+<div class="chain-item"><div class="n">3</div><div class="b"><h4>Replay submitted</h4><p>The same authorization bytes were submitted again, unmodified. The validation function returned OK because nonce was included in the digest but never recorded as consumed.</p></div></div>
+<div class="chain-item"><div class="n">4</div><div class="b"><h4>Second execution succeeds</h4><p>The execution wrapper performed the privileged side effect a second time. The receipts diverged only in their post-state hash; the authorization was identical.</p></div></div>
+<div class="chain-item"><div class="n">5</div><div class="b"><h4>SecHive promotes</h4><p>The candidate is promoted to a finding. The proof pack contains the signed payload, two execution receipts, side-effect deltas, the validation source path, a cosigned attestation, and a deterministic <code>replay.sh</code>.</p></div></div>
+</div>
+
+<h2>Detection path</h2>
+<ul>
+<li><strong>Skill:</strong> <code>bizlogic_hunter</code></li>
+<li><strong>Skill:</strong> <code>api_security</code></li>
+<li><strong>Skill:</strong> <code>poc_validator</code></li>
+<li><strong>Signal:</strong> authorization material contains nonce, request ID or intent ID.</li>
+<li><strong>Signal:</strong> the validation function is read-only or detached from execution state.</li>
+<li><strong>Signal:</strong> repeated execution succeeds without signature mutation.</li>
+<li><strong>Validation:</strong> regression proof reuses the same authorization bytes twice and confirms repeated side effects.</li>
+</ul>
+
+<h2>CVSS</h2>
+<p><code>CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:L/SC:H/SI:H/SA:L</code></p>
+<p>This vector is retained as public-safe scoring context. The point of the case study is not the exact score; it is the proof shape — a supposedly single-use authorization executes more than once.</p>
+
+<h2>Why it matters</h2>
+<p>Replayable runtime authorization breaks the trust boundary between approval and execution. In value movement, governance, repository, identity, or privileged administrative flows, this is the difference between a single approved action and a controllable repetition of that action by anyone who has seen the wire.</p>
+
+<h2>Remediation pattern</h2>
+<ol>
+<li>Make nonce consumption durable: write it to state in the same atomic operation that executes the side effect.</li>
+<li>Move the consumption check inside the execution wrapper, not in a pre-flight validator.</li>
+<li>Add a regression test that submits the exact bytes twice and asserts the second submission fails.</li>
+<li>If multiple executors exist, consume the nonce in shared storage so distributed replay is also blocked.</li>
+</ol>
+
+<h2>Related patterns</h2>
+<ul>
+<li><a href="validation-boundary-bypass.html">Validation boundary / denylist bypass</a></li>
+<li><a href="cross-domain-logic-abuse.html">Cross-domain / cross-asset logic abuse</a></li>
+</ul>
+
+<hr>
+
+<p class="muted">This write-up is part of the SecHive bug bounty proof pack. Read the <a href="bug-bounty.html">full proof pack</a> for the broader inventory.</p>
+</div></section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <a class="brand" href="../index.html"><span class="mark"><img src="../assets/img/sechive-mark.svg" alt=""></span> SecHive<span class="ai">.ai</span></a>
+        <p class="blurb">Proof-first autonomous security for systems, source, apps, devices and labs you are authorized to test.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="../platform.html">The Loop</a></li>
+          <li><a href="../solutions.html">Run modes</a></li>
+          <li><a href="../benchmarks.html">Benchmarks</a></li>
+          <li><a href="../pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compliance</h4>
+        <ul>
+          <li><a href="../compliance/nis-2.html">NIS 2</a></li>
+          <li><a href="../compliance/dora.html">DORA</a></li>
+          <li><a href="../compliance/soc-2.html">SOC 2</a></li>
+          <li><a href="../compliance/pci-dss.html">PCI DSS 4.0</a></li>
+          <li><a href="../compliance/iso-27001.html">ISO 27001</a></li>
+          <li><a href="../compliance/hipaa.html">HIPAA</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Proof</h4>
+        <ul>
+          <li><a href="../case-studies.html">All case studies</a></li>
+          <li><a href="../case-studies/bug-bounty.html">Bug bounty pack</a></li>
+          <li><a href="../benchmarks/juice-shop.html">Juice Shop</a></li>
+          <li><a href="../benchmarks/xbow.html">XBOW campaign</a></li>
+          <li><a href="../benchmarks/goad.html">GOAD <span style="color:#7CB1FF">soon</span></a></li>
+          <li><a href="../benchmarks/wrongsecrets.html">WrongSecrets <span style="color:#7CB1FF">soon</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../faq.html">FAQ</a></li>
+          <li><a href="../security.html">Responsible disclosure</a></li>
+          <li><a href="../privacy.html">Privacy</a></li>
+          <li><a href="../legal.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 SecHive.ai. Authorized use only.</span>
+      <span>Local-first · Proof-first · Operator-grade</span>
+      <span>v4.A · build 2026.05</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

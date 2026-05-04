@@ -1,0 +1,27 @@
+{
+  "claim_language": "internally benchmarked against local intentionally vulnerable targets",
+  "container": {
+    "container_id": "848a151ecc06",
+    "created": "2026-05-03T16:12:28.431104503Z",
+    "image": "bkimminich/juice-shop:v17.3.0",
+    "image_id": "sha256:[REDACTED_SECRET]",
+    "ports": {
+      "3000/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "3001"
+        }
+      ]
+    },
+    "status": "running"
+  },
+  "duration_seconds": 2.0,
+  "ended_at": "2026-05-03T12:32:07-04:00",
+  "local_only": true,
+  "name": "OWASP Juice Shop",
+  "slug": "juice-shop",
+  "started_at": "2026-05-03T12:32:05-04:00",
+  "status": "completed",
+  "status_detail": "http-200",
+  "target_url": "http://127.0.0.1:3001"
+}

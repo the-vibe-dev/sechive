@@ -1,0 +1,565 @@
+{
+  "name": "sechive-studies",
+  "brand": "sechive.ai",
+  "publication_boundary": "sanitized public-safe case studies and evidence only",
+  "excluded_material": [
+    "source code",
+    "raw logs",
+    "tokens",
+    "cookies",
+    "private bug bounty submissions",
+    "ctf flags",
+    "archives",
+    "replay scripts"
+  ],
+  "entries": [
+    {
+      "path": ".gitignore",
+      "category": "repository"
+    },
+    {
+      "path": "README.md",
+      "category": "repository"
+    },
+    {
+      "path": "REDACTION_POLICY.md",
+      "category": "repository"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/DEMO_SCRIPT.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/EXECUTIVE_SUMMARY.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/INDEX.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/MANIFEST.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/README.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/SALES_ONE_PAGER.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/WEBSITE_COPY.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/browser-recordings/browser-demo-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/browser-recordings/browser-demo.webm",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/browser-recordings/f5ed69b28a1a0157237fed92aaedc50b.webm",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-01-target.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-02-vantix-run.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-03-finding.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-04-report.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-05-proof-pack.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-06-scorecard.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-07-manifest.png",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/cli-demo-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/report-summary.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/run-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/scope-config.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/scorecard.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/benchmark-java/target-info.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/report-summary.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/run-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/scope-config.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/crapi/target-info.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/report-summary.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/run-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/scope-config.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/dvwa/target-info.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/report-summary.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/run-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/scope-config.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/juice-shop/target-info.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/report-summary.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/run-notes.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/scope-config.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/eval-suite/runs/webgoat/target-info.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/external-reference/shannon-report-capital-api.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/external-reference/shannon-report-crapi.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/benchmarks/external-reference/shannon-report-juice-shop.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/ctf-thm/README.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/ctf-thm/boiler-ctf-redacted-summary.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/ctf-thm/daves-blog-redacted-summary.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/juice-shop/latest-good-run/run_report.html",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/juice-shop/latest-good-run/run_report.json",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "evidence/juice-shop/latest-good-run/run_report.md",
+      "category": "sanitized-evidence"
+    },
+    {
+      "path": "methodology/benchmark-methodology.md",
+      "category": "methodology"
+    },
+    {
+      "path": "methodology/proof-pack-format.md",
+      "category": "methodology"
+    },
+    {
+      "path": "methodology/proof-pack.md",
+      "category": "methodology"
+    },
+    {
+      "path": "portal/assets/img/benchmark-104-scorecard.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/juiceblackbox.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/juiceshop-light.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/owasp-scores.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/proof-chain.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/public-proof-stack.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/report-output-matrix.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/score-snapshot.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/assets/img/scorecard-light.svg",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies/bug-bounty.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies/cross-domain-logic-abuse.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies/runtime-authorization-replay.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies/validation-boundary-bypass.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies/xbow-campaign.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/case-studies.html",
+      "category": "portal"
+    },
+    {
+      "path": "portal/index.html",
+      "category": "portal"
+    },
+    {
+      "path": "studies/assets/juiceblackbox.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/skill-match-ui-placeholder.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-animated-proof-workflow.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-bug-bounty-proof.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-capability-heatmap.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-case-study-header.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-docs-header.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-juice-shop-proof.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-mission-control.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-mode-map.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-proof-breadth.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-proof-loop.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-recon-skill-loop.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-xbow-benchmark-scorecard.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/assets/vantix-xbow-proof-flow.svg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/benchmarks/xbow-full-manifest.json",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/benchmarks/xbow-full-manifest.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/bug-bounty-patterns/old-system-source-index.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/bug-bounty-proof.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/cross-domain-logic-abuse.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/ctf-thm-proof-inventory.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/juice-shop-proof.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/redacted-bug-bounty-patterns.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/runtime-authorization-replay.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/validation-boundary-bypass.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/vantix_public_case_study_v5.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/case-studies/xbow-benchmark-campaign.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-03af20a60e1f90f9.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-0625aad708004b9f.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-066e30af9f1854fa.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-0f2d6a17640eac08.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-1975333d85ba25b2.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-1a217edfe5a35547.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-22d93d690ae52ac3.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-3c909beb7986eb12.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-40d62804dea4bed6.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-40f48b414cf43534.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-457724610c128aad.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-576c9679366fc534.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-6228fd91119799e9.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-68f077f2c2cb4104.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-7c50b831ec56b686.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-9b2370d2af1b3cae.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-a2ecd4c5f1682691.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-b4ec11ddda16d87b.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-c18c7f2f72a0aa64.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-cda02941d2be5858.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-d71112f8fcfe1175.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-d87f95131044eb29.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-dc791381cb860f01.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-e932e82ca45a57c6.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-ea9e5ec3185dfed6.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/assets/juice-shop-screenshot-ec41c9862da4dff3.jpg",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/juice-shop-blackbox-report.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/juice-shop-whitebox-report.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/examples/sample-compliance-ready-security-assessment-report.md",
+      "category": "case-study"
+    },
+    {
+      "path": "studies/public-case-studies.md",
+      "category": "case-study"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_language": "internally benchmarked against local intentionally vulnerable targets",
+  "container": {
+    "container_id": "f8d72ac2f76e",
+    "created": "2026-05-03T16:12:28.4309918Z",
+    "image": "webgoat/webgoat:latest",
+    "image_id": "sha256:[REDACTED_SECRET]",
+    "ports": {
+      "8080/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "8080"
+        }
+      ],
+      "9090/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "9090"
+        }
+      ]
+    },
+    "status": "running"
+  },
+  "duration_seconds": 2.0,
+  "ended_at": "2026-05-03T12:32:12-04:00",
+  "local_only": true,
+  "name": "OWASP WebGoat",
+  "slug": "webgoat",
+  "started_at": "2026-05-03T12:32:10-04:00",
+  "status": "completed",
+  "status_detail": "http-200",
+  "target_url": "http://127.0.0.1:8080/WebGoat"
+}
