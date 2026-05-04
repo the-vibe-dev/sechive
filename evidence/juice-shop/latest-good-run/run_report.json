@@ -10949,7 +10949,7 @@
     {
       "id": "b806e9f1-16a6-4037-a85e-ed17dbe025a1",
       "level": "info",
-      "message": "  -d '{\"email\":\"test@example.invalid\",\"password\":\"Vantix!12345\",\"passwordRepeat\":\"Vantix!12345\",\"role\":\"admin\",\"securityQuestion\":{\"id\":1},\"securityAnswer\":\"test\"}' \\",
+      "message": "  -d '{\"email\":\"test@example.invalid\",\"password\":\"SecHive!12345\",\"passwordRepeat\":\"SecHive!12345\",\"role\":\"admin\",\"securityQuestion\":{\"id\":1},\"securityAnswer\":\"test\"}' \\",
       "sequence": 5704,
       "type": "terminal"
     },
@@ -11278,7 +11278,7 @@
     {
       "id": "fa24bd79-96a0-49c6-8499-b170a836f6e2",
       "level": "info",
-      "message": "  -d '{\"email\":\"test@example.invalid\",\"password\":\"Vantix!12345\",\"passwordRepeat\":\"Vantix!12345\",\"role\":\"admin\",\"securityQuestion\":{\"id\":1},\"securityAnswer\":\"test\"}' \\",
+      "message": "  -d '{\"email\":\"test@example.invalid\",\"password\":\"SecHive!12345\",\"passwordRepeat\":\"SecHive!12345\",\"role\":\"admin\",\"securityQuestion\":{\"id\":1},\"securityAnswer\":\"test\"}' \\",
       "sequence": 5751,
       "type": "terminal"
     },
@@ -11404,7 +11404,7 @@
     {
       "id": "56f68de4-405b-4e57-9d93-c7f8d61da792",
       "level": "info",
-      "message": "Vantix skills applied",
+      "message": "SecHive skills applied",
       "sequence": 5769,
       "type": "skills"
     },
@@ -11446,7 +11446,7 @@
     {
       "id": "a5a92bfe-a677-4e52-98e6-6147f4402caf",
       "level": "info",
-      "message": "Vantix skills applied",
+      "message": "SecHive skills applied",
       "sequence": 5775,
       "type": "skills"
     },
@@ -14368,7 +14368,7 @@
       "id": "74a9a870-2c66-41d2-85f3-3d5a2f92d5f2",
       "promoted_at": null,
       "remediation": "Return identical response bodies and timing for valid/invalid account lookups.",
-      "reproduction": "GET http://[REDACTED_HOST]/rest/user/security-question?email=admin%40juice-sh.op vs GET http://[REDACTED_HOST]/rest/user/security-question?email=nonexistent.user.vantix%40example.invalid",
+      "reproduction": "GET http://[REDACTED_HOST]/rest/user/security-question?email=admin%40juice-sh.op vs GET http://[REDACTED_HOST]/rest/user/security-question?email=nonexistent.user.sechive%40example.invalid",
       "reproduction_script": "",
       "reviewed_at": null,
       "reviewer_user_id": null,
@@ -15301,7 +15301,7 @@
           "raw_event_type": "policy_decision",
           "reason": "recon_high_noise allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15369,7 +15369,7 @@
           "raw_event_type": "policy_decision",
           "reason": "script allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15437,7 +15437,7 @@
           "raw_event_type": "policy_decision",
           "reason": "script allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15473,7 +15473,7 @@
           "raw_event_type": "policy_decision",
           "reason": "browser_assessment allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15509,7 +15509,7 @@
           "raw_event_type": "policy_decision",
           "reason": "recon_high_noise allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15577,7 +15577,7 @@
           "raw_event_type": "policy_decision",
           "reason": "script allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"
@@ -15613,7 +15613,7 @@
           "raw_event_type": "policy_decision",
           "reason": "codex allowed by dangerous execution posture",
           "risk": "info",
-          "schema_version": "vantix.event.v1",
+          "schema_version": "sechive.event.v1",
           "target_ref": "",
           "validation": {},
           "verdict": "allow_with_audit"

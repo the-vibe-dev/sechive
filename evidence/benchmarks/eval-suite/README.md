@@ -1,8 +1,8 @@
-# Vantix Benchmark Proof Pack
+# SecHive Benchmark Proof Pack
 
 Generated: 2026-05-03T16:35:31.047742+00:00
 
-This pack contains Vantix benchmark evidence internally benchmarked against local intentionally vulnerable targets. It is intended for
+This pack contains SecHive benchmark evidence internally benchmarked against local intentionally vulnerable targets. It is intended for
 sales engineering demos, website proof pages, investor/data-room review, and
 technical evaluator review.
 

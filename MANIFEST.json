@@ -1,7 +1,14 @@
 {
   "name": "sechive-studies",
-  "brand": "sechive.ai",
-  "publication_boundary": "sanitized public-safe case studies and evidence only",
+  "brand": "SecHive.ai",
+  "publication_boundary": "Markdown-first, sanitized public-safe case studies and evidence only",
+  "current_scorecard": {
+    "xbow_style_black_box": "99 / 104 (95.19%)",
+    "xbow_style_white_box": "104 / 104 (100.0%)",
+    "xbow_style_any_win": "104 / 104 (100.0%)",
+    "juice_shop_good_run": "39 validated runtime findings",
+    "bug_bounty_patterns": "90 public-safe proof items represented as patterns"
+  },
   "excluded_material": [
     "source code",
     "raw logs",
@@ -18,12 +25,100 @@
       "category": "repository"
     },
     {
+      "path": "CASE_STUDIES.md",
+      "category": "repository"
+    },
+    {
       "path": "README.md",
       "category": "repository"
     },
     {
       "path": "REDACTION_POLICY.md",
       "category": "repository"
+    },
+    {
+      "path": "assets/benchmark-104-scorecard.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/black-box-proof-loop.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/github-case-study-map.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/owasp-scores.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/proof-chain.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/public-proof-stack.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/report-output-matrix.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/score-snapshot.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-favicon.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-hero-banner.png",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-lockup-horizontal.png",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-lockup-stacked.png",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-loop-banner.png",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "assets/sechive-mark.svg",
+      "category": "brand-or-study-asset"
+    },
+    {
+      "path": "case-studies/README.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/black-box-methodology.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/bug-bounty-proof-patterns.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/customer-ready-reporting.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/evidence-boundaries.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/juice-shop-real-black-box.md",
+      "category": "github-case-study"
+    },
+    {
+      "path": "case-studies/xbow-black-box-campaign.md",
+      "category": "github-case-study"
     },
     {
       "path": "evidence/benchmarks/eval-suite/DEMO_SCRIPT.md",
@@ -70,7 +165,7 @@
       "category": "sanitized-evidence"
     },
     {
-      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-02-vantix-run.png",
+      "path": "evidence/benchmarks/eval-suite/assets/screenshots/screenshot-02-sechive-run.png",
       "category": "sanitized-evidence"
     },
     {
@@ -270,296 +365,300 @@
       "category": "methodology"
     },
     {
+      "path": "portal/README.md",
+      "category": "secondary-portal-material"
+    },
+    {
       "path": "portal/assets/img/benchmark-104-scorecard.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/juiceblackbox.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/juiceshop-light.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/owasp-scores.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/proof-chain.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/public-proof-stack.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/report-output-matrix.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/score-snapshot.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/assets/img/scorecard-light.svg",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies/bug-bounty.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies/cross-domain-logic-abuse.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies/runtime-authorization-replay.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies/validation-boundary-bypass.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies/xbow-campaign.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/case-studies.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "portal/index.html",
-      "category": "portal"
+      "category": "secondary-portal-material"
     },
     {
       "path": "studies/assets/juiceblackbox.svg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-animated-proof-workflow.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-bug-bounty-proof.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-capability-heatmap.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-case-study-header.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-docs-header.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-juice-shop-proof.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-mission-control.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-mode-map.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-proof-breadth.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-proof-loop.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-recon-skill-loop.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-xbow-benchmark-scorecard.svg",
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/assets/sechive-xbow-proof-flow.svg",
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/assets/skill-match-ui-placeholder.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-animated-proof-workflow.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-bug-bounty-proof.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-capability-heatmap.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-case-study-header.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-docs-header.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-juice-shop-proof.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-mission-control.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-mode-map.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-proof-breadth.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-proof-loop.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-recon-skill-loop.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-xbow-benchmark-scorecard.svg",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/assets/vantix-xbow-proof-flow.svg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/benchmarks/xbow-full-manifest.json",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/benchmarks/xbow-full-manifest.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/bug-bounty-patterns/old-system-source-index.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/bug-bounty-proof.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/cross-domain-logic-abuse.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/ctf-thm-proof-inventory.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/juice-shop-proof.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/redacted-bug-bounty-patterns.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/runtime-authorization-replay.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
+    },
+    {
+      "path": "studies/case-studies/sechive_public_case_study_v5.md",
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/validation-boundary-bypass.md",
-      "category": "case-study"
-    },
-    {
-      "path": "studies/case-studies/vantix_public_case_study_v5.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/case-studies/xbow-benchmark-campaign.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-03af20a60e1f90f9.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-0625aad708004b9f.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-066e30af9f1854fa.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-0f2d6a17640eac08.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-1975333d85ba25b2.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-1a217edfe5a35547.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-22d93d690ae52ac3.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-3c909beb7986eb12.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-40d62804dea4bed6.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-40f48b414cf43534.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-457724610c128aad.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-576c9679366fc534.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-6228fd91119799e9.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-68f077f2c2cb4104.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-7c50b831ec56b686.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-9b2370d2af1b3cae.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-a2ecd4c5f1682691.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-b4ec11ddda16d87b.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-c18c7f2f72a0aa64.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-cda02941d2be5858.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-d71112f8fcfe1175.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-d87f95131044eb29.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-dc791381cb860f01.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-e932e82ca45a57c6.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-ea9e5ec3185dfed6.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/assets/juice-shop-screenshot-ec41c9862da4dff3.jpg",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/juice-shop-blackbox-report.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/juice-shop-whitebox-report.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/examples/sample-compliance-ready-security-assessment-report.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     },
     {
       "path": "studies/public-case-studies.md",
-      "category": "case-study"
+      "category": "supporting-case-study-material"
     }
   ]
 }

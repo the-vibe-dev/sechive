@@ -46,7 +46,7 @@ The failure mode looks like this:
 
 ## Detection Logic
 
-Vantix should route this family toward:
+SecHive should route this family toward:
 
 - `validation_bypass`
 - `scope_guard`

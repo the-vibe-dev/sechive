@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Vantix breadth comparison</title>
-  <desc id="desc">Comparison graphic showing Vantix coverage beyond scanner-only, chat-only, source-only, and benchmark-only tools.</desc>
+  <title id="title">SecHive.ai breadth comparison</title>
+  <desc id="desc">Comparison graphic showing SecHive.ai coverage beyond scanner-only, chat-only, source-only, and benchmark-only tools.</desc>
   <rect width="1200" height="360" rx="30" fill="#f8fafc"/>
-  <text x="62" y="62" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" fill="#172033" font-weight="900">Where Vantix stands out</text>
+  <text x="62" y="62" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" fill="#172033" font-weight="900">Where SecHive.ai stands out</text>
   <text x="62" y="96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#64748b">Breadth plus proof discipline: real bug bounty patterns, safe benchmark reproduction, and reviewer-ready evidence.</text>
 
   <g transform="translate(62 134)">
@@ -28,7 +28,7 @@
   </g>
   <g transform="translate(776 110)">
     <rect width="360" height="208" rx="28" fill="#0f172a"/>
-    <text x="28" y="52" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" fill="#ffffff" font-weight="900">Vantix</text>
+    <text x="28" y="52" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" fill="#ffffff" font-weight="900">SecHive.ai</text>
     <text x="28" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#bfdbfe" font-weight="800">recon → skill routing → proof → report</text>
     <g transform="translate(28 114)">
       <rect width="118" height="28" rx="14" fill="#fee2e2"/>

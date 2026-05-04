@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
   <title id="title">Skill Match UI placeholder</title>
-  <desc id="desc">Placeholder showing the Vantix Skill Match panel structure.</desc>
+  <desc id="desc">Placeholder showing the SecHive.ai Skill Match panel structure.</desc>
   <rect width="1200" height="720" fill="#101418"/>
   <rect x="48" y="48" width="1104" height="624" rx="8" fill="#161d22" stroke="#2d3a42"/>
   <text x="82" y="106" fill="#e8eef2" font-family="Inter, sans-serif" font-size="34">Skill Match</text>

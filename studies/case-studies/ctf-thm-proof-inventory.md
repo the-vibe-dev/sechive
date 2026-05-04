@@ -1,7 +1,7 @@
 # Completed THM / CTF Proof Inventory
 
 <p align="center">
-  <img src="../assets/vantix-animated-proof-workflow.svg" alt="Vantix proof workflow" width="92%">
+  <img src="../assets/sechive-animated-proof-workflow.svg" alt="SecHive proof workflow" width="92%">
 </p>
 
 <p align="center">
@@ -11,17 +11,17 @@
   <kbd>completed only</kbd>
 </p>
 
-This page is the completed-room proof appendix for Vantix. It lists only rooms
+This page is the completed-room proof appendix for SecHive. It lists only rooms
 with local completion evidence: solved notes, captured proof, completed session
 summaries, or replay write-ups.
 
-The point is simple: these rooms demonstrate the same loop Vantix productizes:
+The point is simple: these rooms demonstrate the same loop SecHive productizes:
 recon, skill selection, hypothesis building, validation, proof capture, and
 report-ready explanation.
 
 ## Completed Room List
 
-| Room | THM difficulty | Type | Proof status | Vantix capability demonstrated |
+| Room | THM difficulty | Type | Proof status | SecHive capability demonstrated |
 | --- | --- | --- | --- | --- |
 | [Dave's Blog](https://tryhackme.com/room/davesblog) | Hard | CTF | Completed notes and write-up | NoSQL auth bypass, command execution, binary exploitation, root proof. |
 | [Boiler CTF](https://tryhackme.com/room/boilerctf2) | Medium | CTF | Completed notes and write-up | FTP enumeration, CMS discovery, RCE validation, SUID privilege escalation. |
@@ -33,10 +33,10 @@ report-ready explanation.
 | [TakeOver](https://tryhackme.com/room/takeover) | Easy | CTF | Completed retrospective | Subdomain/vhost enumeration, certificate SAN analysis, low-noise flag recovery. |
 | [U.A. High School](https://tryhackme.com/room/yueiua) | Easy | CTF | Completed session summary | Web RCE, corrupted image repair, stego, credential recovery, sudo abuse. |
 
-## Why This Belongs In Vantix
+## Why This Belongs In SecHive
 
 These completed rooms are useful because they cut across the product surfaces
-Vantix has to handle in real work:
+SecHive has to handle in real work:
 
 | Capability | Rooms that exercise it |
 | --- | --- |
@@ -48,6 +48,6 @@ Vantix has to handle in real work:
 
 ## Public-Safe Claim
 
-Vantix has evidence-backed completed THM/CTF room proofs across easy, medium,
+SecHive has evidence-backed completed THM/CTF room proofs across easy, medium,
 and hard public adversarial labs. The list above is intentionally narrow:
 completed rooms only, no mobile THM claim, and no customer-production claim.

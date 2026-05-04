@@ -1,6 +1,6 @@
 # Executive Summary
 
-Vantix was exercised against a local benchmark lab containing intentionally vulnerable targets. The suite emphasizes repeatability, scope enforcement, evidence preservation, and conservative reporting.
+SecHive was exercised against a local benchmark lab containing intentionally vulnerable targets. The suite emphasizes repeatability, scope enforcement, evidence preservation, and conservative reporting.
 
 ## Outcome Snapshot
 
@@ -15,7 +15,7 @@ Vantix was exercised against a local benchmark lab containing intentionally vuln
 ## Buyer-Relevant Proof Themes
 
 - Scope enforcement: every target URL is local and bound to `127.0.0.1`.
-- Evidence preservation: each run stores target info, scope config, Vantix output, logs, and report summaries.
+- Evidence preservation: each run stores target info, scope config, SecHive output, logs, and report summaries.
 - Reporting quality: generated reports distinguish completed, partial, and failed runs without inventing findings.
 - Repeatability: benchmark Compose files and scripts are included.
 

@@ -1,7 +1,7 @@
 # OWASP Juice Shop Proof Pack
 
 <p align="center">
-  <img src="../assets/vantix-juice-shop-proof.svg" alt="Vantix OWASP Juice Shop proof banner" width="100%">
+  <img src="../assets/sechive-juice-shop-proof.svg" alt="SecHive OWASP Juice Shop proof banner" width="100%">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 The Juice Shop reports are the reproducible public benchmark counterpart to the
 redacted bug bounty corpus. Bug bounty results prove real-world depth; Juice Shop
-proves that the same Vantix reporting style can be inspected end to end on a
+proves that the same SecHive reporting style can be inspected end to end on a
 safe, intentionally vulnerable target.
 
 Unlike the bug bounty corpus, these reports are intentionally published in full.
@@ -23,7 +23,7 @@ target is OWASP Juice Shop, not a non-disclosable live program.
 ## Challenge Coverage Snapshot
 
 The current OWASP Juice Shop source tree defines **111 challenges** in
-`data/static/challenges.yml`. Vantix findings are not the same thing as Juice
+`data/static/challenges.yml`. SecHive findings are not the same thing as Juice
 Shop scoreboard unlocks, so the comparison below is reported as
 challenge-equivalent coverage: one validated finding or source candidate counts
 as one covered challenge-equivalent item only for sizing the remaining gap.
@@ -48,7 +48,7 @@ as one covered challenge-equivalent item only for sizing the remaining gap.
 ## Why These Reports Matter
 
 The reports are intentionally complete. They show the output style reviewers
-should expect from Vantix:
+should expect from SecHive:
 
 - scope and run context
 - attack surface inventory
@@ -58,7 +58,7 @@ should expect from Vantix:
 - remediation guidance
 - source-backed candidates separated from runtime-validated findings
 
-That split is important. Vantix should not treat source suspicion as runtime
+That split is important. SecHive should not treat source suspicion as runtime
 proof. The white-box report keeps candidates distinct until validation confirms
 exploitability.
 
@@ -105,6 +105,6 @@ Full report:
 | Juice Shop black-box report | Shows complete dynamic testing and validated findings on a safe target. |
 | Juice Shop white-box report | Shows source review, candidate separation, and validation discipline. |
 
-Together, these are the public proof story: Vantix finds real bugs, explains why
+Together, these are the public proof story: SecHive finds real bugs, explains why
 they matter, separates candidates from proof, and can publish reproducible
 reports without exposing private targets.

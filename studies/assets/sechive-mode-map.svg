@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
-  <title id="title">Vantix mode map</title>
-  <desc id="desc">Vantix mode-specific workflows and output types.</desc>
+  <title id="title">SecHive.ai mode map</title>
+  <desc id="desc">SecHive.ai mode-specific workflows and output types.</desc>
   <rect width="1400" height="460" rx="30" fill="#f8fafc"/>
   <text x="70" y="60" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" fill="#172033" font-weight="900">One engine, mode-specific workflows</text>
   <text x="70" y="96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#64748b">Pentest, Bug Bounty, Own Source, Android/APK, Reverse Engineering, and PR Audit share proof semantics but produce different deliverables.</text>

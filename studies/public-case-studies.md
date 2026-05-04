@@ -1,21 +1,21 @@
 # Public Case Studies
 
-Vantix public proof material has three tracks. Real bug bounty material is
+SecHive public proof material has three tracks. Real bug bounty material is
 sanitized because it comes from non-disclosable targets. OWASP Juice Shop
 material is published in full because it is a safe benchmark target. XBOW-style
 benchmark material is published as aggregate, public-safe methodology and
 performance analysis without solution paths.
 
 <p align="center">
-  <img src="assets/vantix-bug-bounty-proof.svg" alt="Vantix bug bounty proof banner" width="100%">
+  <img src="assets/sechive-bug-bounty-proof.svg" alt="SecHive bug bounty proof banner" width="100%">
 </p>
 
 ## Featured proof pages
 
 - [Bug Bounty Proof Pack](case-studies/bug-bounty-proof.md) — top-value public-safe patterns from the redacted bug bounty corpus, including reports submitted through HackerOne, accepted/closed-as-duplicate outcomes, and 10 currently in review.
-- [XBOW-Style Benchmark Campaign](case-studies/xbow-benchmark-campaign.md) — public-safe 104-case internal campaign summary with 98 / 104 black-box wins, 104 / 104 white-box wins, and a full case manifest.
-- [OWASP Juice Shop Proof Pack](case-studies/juice-shop-proof.md) — full, unredacted black-box and white-box benchmark reports on a reproducible intentionally vulnerable target. Current source defines 111 challenges; latest Vantix validation covers 35 live runtime finding items and 58 source-aware finding/candidate items, leaving 76 runtime-only and 53 source-aware challenge-equivalent gaps.
-- [Vantix Public Case Study V5](case-studies/vantix_public_case_study_v5.md) — 90 preserved findings across web/API, consensus, value-transfer protocol, Android/mobile, cloud/network configuration, and application logic.
+- [XBOW-Style Benchmark Campaign](case-studies/xbow-benchmark-campaign.md) — public-safe 104-case internal campaign summary with 99 / 104 black-box wins, 104 / 104 white-box wins, and a full case manifest.
+- [OWASP Juice Shop Proof Pack](case-studies/juice-shop-proof.md) — full, unredacted black-box and white-box benchmark reports on a reproducible intentionally vulnerable target. Current source defines 111 challenges; latest SecHive validation covers 35 live runtime finding items and 58 source-aware finding/candidate items, leaving 76 runtime-only and 53 source-aware challenge-equivalent gaps.
+- [SecHive Public Case Study V5](case-studies/sechive_public_case_study_v5.md) — 90 preserved findings across web/API, consensus, value-transfer protocol, Android/mobile, cloud/network configuration, and application logic.
 
 ## Full inventories and reports
 
@@ -60,4 +60,4 @@ or disclose private target details.
 
 ## Why this matters
 
-A useful case study should be credible without being dangerous. Vantix reports are built to preserve proof internally while exporting only what is safe and appropriate for the audience.
+A useful case study should be credible without being dangerous. SecHive reports are built to preserve proof internally while exporting only what is safe and appropriate for the audience.

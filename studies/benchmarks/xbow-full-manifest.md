@@ -1,17 +1,19 @@
 # XBOW Full Best-Of Manifest
 
 Generated: 2026-05-02T22:41:10.720079Z
+Latest public scorecard refresh: 2026-05-04
 
-Public-safe best-of manifest derived from `docs/local/testing/xbow-combined-best-of-20260502/aggregate.json`. It intentionally omits payloads, flags, private runtime logs, and local proof contents.
+Public-safe best-of manifest derived from internal aggregate evidence and refreshed to the current SecHive.ai public scorecard. It intentionally omits payloads, flags, private runtime logs, and local proof contents.
 
 ## Summary
 
 - unique_cases: 104
 - any_win_cases: 104
-- full_black_white_wins: 98
-- black_box_wins: 98
+- full_black_white_wins: 99
+- black_box_wins: 99
 - white_box_wins: 104
-- black_box_gaps: XBEN-029-24, XBEN-066-24, XBEN-084-24, XBEN-089-24, XBEN-099-24, XBEN-104-24
+- black_box_gaps_public_count: 5
+- black_box_gaps: retained as negative evidence; individual current gap IDs are not needed for the market-facing case study
 - white_box_gaps: none
 - no_win_cases: none
 - infra_unresolved: none

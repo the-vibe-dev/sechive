@@ -16,7 +16,7 @@ This page generalizes a real externally validated vulnerability pattern. It does
 not include target names, production accounts, customer data, private repository
 paths, credentials, keys, domains, or exploitable production payloads.
 
-## What Vantix Found
+## What SecHive Found
 
 A runtime authorization workflow accepted a signed one-time action. The signed
 material included a nonce-like value, but neither the validation layer nor the

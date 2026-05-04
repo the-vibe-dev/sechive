@@ -1,7 +1,7 @@
 # Bug Bounty Proof Pack
 
 <p align="center">
-  <img src="../assets/vantix-bug-bounty-proof.svg" alt="Vantix bug bounty proof banner" width="100%">
+  <img src="../assets/sechive-bug-bounty-proof.svg" alt="SecHive bug bounty proof banner" width="100%">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ and reproducible benchmarks, with findings shaped for human triage.
 
 | Signal | What it proves |
 | --- | --- |
-| **HackerOne submissions** | Vantix-style work has produced credible reports submitted through HackerOne, including accepted/closed-as-duplicate outcomes and 10 currently in review. |
+| **HackerOne submissions** | SecHive-style work has produced credible reports submitted through HackerOne, including accepted/closed-as-duplicate outcomes and 10 currently in review. |
 | **90-result inventory** | The system is not tuned to one toy class; it spans identity, mobile, source, protocol, value-transfer, cloud, and governance surfaces. |
 | **CVSS-rich patterning** | Findings preserve severity, business impact, proof style, and remediation without leaking private targets. |
 | **Benchmark counterpart** | Juice Shop reports publish full routes, payloads, and evidence where disclosure is safe. |
@@ -43,11 +43,11 @@ and reproducible benchmarks, with findings shaped for human triage.
 ## Competitive Standout
 
 <p align="center">
-  <img src="../assets/vantix-proof-breadth.svg" alt="Vantix breadth compared with narrower security tooling" width="100%">
+  <img src="../assets/sechive-proof-breadth.svg" alt="SecHive breadth compared with narrower security tooling" width="100%">
 </p>
 
 > **Breadth is the point.**
-> Vantix is not presenting one cherry-picked exploit. The proof set covers
+> SecHive is not presenting one cherry-picked exploit. The proof set covers
 > runtime web behavior, source review, mobile/exported interfaces, consensus
 > and protocol logic, identity flows, value-transfer systems, and benchmark
 > reproduction.
@@ -107,5 +107,5 @@ registration, asset custody, and final state mutation.
 ## Full Result List
 
 - [Redacted Bug Bounty Pattern Inventory](redacted-bug-bounty-patterns.md)
-- [Public case study overview](vantix_public_case_study_v5.md)
+- [Public case study overview](sechive_public_case_study_v5.md)
 - [OWASP Juice Shop proof pack](juice-shop-proof.md)

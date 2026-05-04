@@ -1,7 +1,7 @@
-# Vantix Public Case Study V5
+# SecHive Public Case Study V5
 
 <p align="center">
-  <img src="../assets/vantix-case-study-header.svg" alt="Vantix public case study" width="100%">
+  <img src="../assets/sechive-case-study-header.svg" alt="SecHive public case study" width="100%">
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ## Executive summary
 
-This case study shows the kind of work Vantix is designed to support: multi-surface bug hunting across source, protocols, identity, mobile apps, cloud/network configuration, and value-transfer systems.
+This case study shows the kind of work SecHive is designed to support: multi-surface bug hunting across source, protocols, identity, mobile apps, cloud/network configuration, and value-transfer systems.
 
 The inventory below preserves **90 real findings** in a public-safe form. The original target details are intentionally removed. What remains is the security mechanism: trust boundary, validation style, severity signal, and business impact.
 
@@ -33,16 +33,16 @@ and specialized systems.
 
 These completed rooms are not presented as customer production systems, and this
 case study does not claim every room was fully automated. They are a public-safe
-capability baseline showing that Vantix's workflow has been exercised across the
+capability baseline showing that SecHive's workflow has been exercised across the
 same vulnerability families it now routes, validates, and reports.
 
 <p align="center">
-  <img src="../assets/vantix-capability-heatmap.svg" alt="Vantix public proof capability heatmap" width="95%">
+  <img src="../assets/sechive-capability-heatmap.svg" alt="SecHive public proof capability heatmap" width="95%">
 </p>
 
 ### Why this belongs in the case study
 
-The bug bounty case study shows Vantix producing report-quality vulnerability
+The bug bounty case study shows SecHive producing report-quality vulnerability
 research across web/API, protocol, consensus, mobile, cloud, configuration, and
 access-control classes. The CTF proof baseline shows broader operational
 coverage: recon, exploitation, privilege escalation, Active Directory, crypto,
@@ -52,29 +52,29 @@ reversing, incident analysis, and specialized protocols.
 |---|---|
 | **Sanitized bug bounty findings** | Real report-quality vulnerability research with CVSS, impact, proof style, and business relevance. |
 | **Completed THM/CTF room proofs** | Breadth across repeatable security workflows and validated capability coverage. |
-| **Vantix proof engine** | Evidence capture, validation, negative evidence, replay, proof packs, and mode-specific reporting. |
+| **SecHive proof engine** | Evidence capture, validation, negative evidence, replay, proof packs, and mode-specific reporting. |
 
 <p align="center">
-  <img src="../assets/vantix-animated-proof-workflow.svg" alt="Vantix proof workflow" width="95%">
+  <img src="../assets/sechive-animated-proof-workflow.svg" alt="SecHive proof workflow" width="95%">
 </p>
 
 ### Capability-to-engine mapping
 
-| CTF capability | Vantix engine component | Case-study relevance |
+| CTF capability | SecHive engine component | Case-study relevance |
 |---|---|---|
-| Recon and OSINT | Recon agent, target profile, surface mapper | Explains how Vantix finds weak signals before exploitation. |
+| Recon and OSINT | Recon agent, target profile, surface mapper | Explains how SecHive finds weak signals before exploitation. |
 | Web/API exploitation | Web/API skill packs, authz and business-logic agents | Maps to web/API and identity findings in the public inventory. |
 | Privilege escalation | Exploit validation, proof-pack agent, post-exploit reasoning | Demonstrates full-chain validation discipline. |
 | Active Directory | AD specialist agent and lateral-movement reasoning | Expands enterprise assessment credibility. |
 | Binary/crypto/reversing | Reverse-engineering and crypto agents | Supports Android/APK and protocol/source review positioning. |
 | Forensics/PCAP | Evidence and replay agents | Supports proof-first reporting and timeline reconstruction. |
-| ICS/CVE scenarios | Specialized skill routing and CVE research agent | Shows Vantix can route beyond generic web scanning. |
+| ICS/CVE scenarios | Specialized skill routing and CVE research agent | Shows SecHive can route beyond generic web scanning. |
 
 The full linked inventory lists only completed THM/CTF room proofs with room
-name, difficulty, proof status, and the Vantix capability each room exercises:
+name, difficulty, proof status, and the SecHive capability each room exercises:
 [Completed THM / CTF Proof Inventory](ctf-thm-proof-inventory.md).
 
-> Vantix's public validation baseline supports the proof-first claim: recon
+> SecHive's public validation baseline supports the proof-first claim: recon
 > evidence routes to the right specialist skill, hypotheses are validated or
 > refuted, and confirmed findings are packaged into reproducible reports.
 
@@ -82,7 +82,7 @@ name, difficulty, proof status, and the Vantix capability each room exercises:
 
 ## What this proves
 
-Vantix is not a passive scanner. It can reason across:
+SecHive is not a passive scanner. It can reason across:
 
 - web and API identity flows
 - state machines and protocol invariants
@@ -92,11 +92,11 @@ Vantix is not a passive scanner. It can reason across:
 - blockchain/value-transfer invariants
 - replayable proof narratives and report-ready evidence
 
-The important point is not that a tool listed findings. The important point is that Vantix can preserve mechanism, validation method, impact, and remediation direction while removing unsafe target-specific details.
+The important point is not that a tool listed findings. The important point is that SecHive can preserve mechanism, validation method, impact, and remediation direction while removing unsafe target-specific details.
 
 ---
 
-## How Vantix thinks like a researcher
+## How SecHive thinks like a researcher
 
 ```mermaid
 flowchart LR
@@ -107,7 +107,7 @@ flowchart LR
     E --> F[Review / Submit / Fix]
 ```
 
-| Stage | What Vantix does |
+| Stage | What SecHive does |
 |---|---|
 | **Map** | Enumerates contracts, routes, RPCs, Android components, identity flows, packages, and configuration surfaces. |
 | **Research** | Reads source, decompiles APKs when allowed, inspects state machines, and compares implementation behavior against invariants. |
@@ -125,7 +125,7 @@ flowchart LR
 
 **Hypothesis:** a blocked account could still receive value from a previously valid remote burn.
 
-**Validation style:** Vantix traced the burn → attestation → receive lifecycle and modeled the missing destination-side check.
+**Validation style:** SecHive traced the burn → attestation → receive lifecycle and modeled the missing destination-side check.
 
 **Result:** value-transfer controls could be bypassed without key compromise or signature forgery.
 
@@ -135,7 +135,7 @@ flowchart LR
 
 **Hypothesis:** a peer-controlled field could influence proposer identity or validity classification.
 
-**Validation style:** Vantix modeled the state-machine path and identified where application validation or cryptographic binding was missing.
+**Validation style:** SecHive modeled the state-machine path and identified where application validation or cryptographic binding was missing.
 
 **Result:** consensus safety or liveness assumptions could be weakened through malformed but structurally accepted inputs.
 
@@ -145,7 +145,7 @@ flowchart LR
 
 **Hypothesis:** a malicious local app could inject or read trusted state through an exposed component.
 
-**Validation style:** Vantix connected manifest exposure to reachable app behavior and described a bounded proof concept.
+**Validation style:** SecHive connected manifest exposure to reachable app behavior and described a bounded proof concept.
 
 **Result:** sensitive account, wallet, or identity workflows could be abused without relying on remote exploitation.
 
@@ -153,7 +153,7 @@ flowchart LR
 
 ## Capability coverage
 
-| Domain | Findings | What Vantix demonstrated |
+| Domain | Findings | What SecHive demonstrated |
 |---|---:|---|
 | Web / API / identity | 28 | Login flows, callbacks, tokens, session state, postMessage, CMS, account recovery, and access control. |
 | Consensus / validator security | 28 | Validator sets, proposal handling, finality, certificates, sync behavior, liveness, and state-machine safety. |
@@ -196,7 +196,7 @@ flowchart LR
 
 ## Commercial takeaway
 
-The value shown here is breadth plus proof discipline. Vantix can move between web/API, source, Android, protocol, cloud, and value-transfer surfaces while keeping the result reviewable.
+The value shown here is breadth plus proof discipline. SecHive can move between web/API, source, Android, protocol, cloud, and value-transfer surfaces while keeping the result reviewable.
 
 That is the difference between activity and outcome:
 

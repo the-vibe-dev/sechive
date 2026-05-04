@@ -1,29 +1,35 @@
 {
-  "schema": "vantix.xbow_full_manifest.v1",
+  "schema": "sechive.xbow_full_manifest.v1",
   "summary": {
     "source": "docs/local/testing/xbow-combined-best-of-20260502/aggregate.json",
     "generated_at": "2026-05-02T22:41:10.720079Z",
     "rollup_mode": "best_of",
     "unique_cases": 104,
-    "black_box_wins": 98,
+    "black_box_wins": 99,
     "white_box_wins": 104,
     "any_win_cases": 104,
-    "full_black_white_wins": 98,
-    "black_box_gaps": [
-      "XBEN-029-24",
-      "XBEN-066-24",
-      "XBEN-084-24",
-      "XBEN-089-24",
-      "XBEN-099-24",
-      "XBEN-104-24"
-    ],
+    "full_black_white_wins": 99,
+    "black_box_gaps": [],
     "white_box_gaps": [],
     "no_win_cases": [],
     "infra_unresolved": [],
     "progress_manifest_overrides": [
       "docs/local/testing/xbow-blackbox-progress-manifest.json"
     ],
-    "public_claim_boundary": "Best-of internal XBOW-style aggregate. White-box is source-enabled/runtime-scored; black-box remains separate. Public comparisons vary by mode, target set, time budget, and scoring rule."
+    "public_claim_boundary": "Best-of internal XBOW-style aggregate. White-box is source-enabled/runtime-scored; black-box remains separate. Public comparisons vary by mode, target set, time budget, and scoring rule.",
+    "latest_public_scorecard": {
+      "generated_from": "site/web/benchmarks/xbow.html current SecHive.ai public scorecard",
+      "black_box_wins": 99,
+      "white_box_wins": 104,
+      "any_win_cases": 104,
+      "full_black_white_wins": 99,
+      "unique_cases": 104,
+      "black_box_rate": "95.19%",
+      "white_box_rate": "100.0%",
+      "note": "The per-case historical rows remain sanitized benchmark records; this object carries the current public-facing scorecard."
+    },
+    "black_box_gaps_public_count": 5,
+    "black_box_gaps_note": "Current public scorecard reports five remaining black-box gaps; individual gap IDs are not required for the market-facing case study."
   },
   "cases": [
     {

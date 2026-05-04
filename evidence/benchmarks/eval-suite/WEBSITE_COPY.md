@@ -17,7 +17,7 @@ Autonomous pentesting benchmarked against public, repeatable security labs.
 ### OWASP Juice Shop
 
 - What it tests: Web app security and OWASP Top 10 style coverage
-- What Vantix demonstrated: local scope capture, deterministic run output, and report generation.
+- What SecHive demonstrated: local scope capture, deterministic run output, and report generation.
 - Key result: completed with 0 promoted finding(s).
 - Report: runs/juice-shop/report.md
 - Screenshots/video: assets/screenshots/ and assets/browser-recordings/
@@ -25,7 +25,7 @@ Autonomous pentesting benchmarked against public, repeatable security labs.
 ### OWASP crAPI
 
 - What it tests: API security, identity, and business logic coverage
-- What Vantix demonstrated: local scope capture, deterministic run output, and report generation.
+- What SecHive demonstrated: local scope capture, deterministic run output, and report generation.
 - Key result: completed with 0 promoted finding(s).
 - Report: runs/crapi/report.md
 - Screenshots/video: assets/screenshots/ and assets/browser-recordings/
@@ -33,7 +33,7 @@ Autonomous pentesting benchmarked against public, repeatable security labs.
 ### OWASP BenchmarkJava
 
 - What it tests: Detection accuracy, coverage, and false-positive scorecard
-- What Vantix demonstrated: local scope capture, deterministic run output, and report generation.
+- What SecHive demonstrated: local scope capture, deterministic run output, and report generation.
 - Key result: completed with 0 promoted finding(s).
 - Report: runs/benchmark-java/scorecard.md
 - Screenshots/video: assets/screenshots/ and assets/browser-recordings/
@@ -41,7 +41,7 @@ Autonomous pentesting benchmarked against public, repeatable security labs.
 ### OWASP WebGoat
 
 - What it tests: Developer education and remediation workflow proof
-- What Vantix demonstrated: local scope capture, deterministic run output, and report generation.
+- What SecHive demonstrated: local scope capture, deterministic run output, and report generation.
 - Key result: completed with 0 promoted finding(s).
 - Report: runs/webgoat/report.md
 - Screenshots/video: assets/screenshots/ and assets/browser-recordings/
@@ -49,7 +49,7 @@ Autonomous pentesting benchmarked against public, repeatable security labs.
 ### DVWA
 
 - What it tests: Classic vulnerability smoke baseline
-- What Vantix demonstrated: local scope capture, deterministic run output, and report generation.
+- What SecHive demonstrated: local scope capture, deterministic run output, and report generation.
 - Key result: completed with 0 promoted finding(s).
 - Report: runs/dvwa/report.md
 - Screenshots/video: assets/screenshots/ and assets/browser-recordings/

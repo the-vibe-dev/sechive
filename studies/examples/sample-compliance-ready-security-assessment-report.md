@@ -1,10 +1,10 @@
 # Sample Compliance-Ready Security Assessment Report
 
-This sanitized sample shows the shape of a Vantix compliance-ready report. It uses fictional findings and no real customer data.
+This sanitized sample shows the shape of a SecHive compliance-ready report. It uses fictional findings and no real customer data.
 
 ## Executive Summary
 
-Vantix validated three technical security findings and recorded one source-backed candidate that requires runtime confirmation. The strongest risks affect access control, sensitive data protection, and vulnerability management. Evidence is suitable for engineering remediation and compliance evidence review after customer-specific scope and legal obligations are confirmed.
+SecHive validated three technical security findings and recorded one source-backed candidate that requires runtime confirmation. The strongest risks affect access control, sensitive data protection, and vulnerability management. Evidence is suitable for engineering remediation and compliance evidence review after customer-specific scope and legal obligations are confirmed.
 
 ## Compliance Readiness Summary
 

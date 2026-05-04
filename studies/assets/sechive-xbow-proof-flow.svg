@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
-  <title id="title">Vantix benchmark proof flow</title>
+  <title id="title">SecHive.ai benchmark proof flow</title>
   <desc id="desc">Flow diagram showing scope, recon, skill routing, hypothesis planning, validation, promotion, and learning.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
@@ -12,7 +12,7 @@
   </defs>
   <rect width="1200" height="540" rx="34" fill="url(#bg)"/>
   <text x="68" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="850" fill="#172033">The proof-first benchmark loop</text>
-  <text x="70" y="116" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#64748b">Vantix treats a benchmark target like a controlled security engagement: discover, route, test, prove, and learn without memorizing cases.</text>
+  <text x="70" y="116" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#64748b">SecHive.ai treats a benchmark target like a controlled security engagement: discover, route, test, prove, and learn without memorizing cases.</text>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <g>

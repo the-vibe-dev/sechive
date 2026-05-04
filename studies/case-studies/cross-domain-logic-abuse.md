@@ -43,7 +43,7 @@ The recurring shape is:
 
 ## Detection Logic
 
-Vantix should route this family toward:
+SecHive should route this family toward:
 
 - `cross_domain_logic`
 - `bizlogic_hunter`

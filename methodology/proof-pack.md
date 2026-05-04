@@ -1,6 +1,6 @@
-# Vantix Proof Packs
+# SecHive Proof Packs
 
-Proof packs make Vantix findings portable, replayable, and tamper-evident.
+Proof packs make SecHive findings portable, replayable, and tamper-evident.
 
 ```mermaid
 flowchart LR
@@ -32,7 +32,7 @@ proof-pack/
 ## Verify
 
 ```bash
-python scripts/vantix proof verify /path/to/proof-pack
+python scripts/sechive proof verify /path/to/proof-pack
 ```
 
 Exit codes:
@@ -46,7 +46,7 @@ Exit codes:
 ## Replay
 
 ```bash
-python scripts/vantix replay /path/to/proof-pack
+python scripts/sechive replay /path/to/proof-pack
 ```
 
 ## Product rule

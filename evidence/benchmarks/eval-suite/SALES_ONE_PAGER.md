@@ -1,8 +1,8 @@
 # Sales One-Pager
 
-## Vantix Benchmark Proof Pack
+## SecHive Benchmark Proof Pack
 
-Vantix has a repeatable local benchmark workflow for demonstrating authorized autonomous security work against intentionally vulnerable targets.
+SecHive has a repeatable local benchmark workflow for demonstrating authorized autonomous security work against intentionally vulnerable targets.
 
 ## Proof Points
 
@@ -15,6 +15,6 @@ Vantix has a repeatable local benchmark workflow for demonstrating authorized au
 
 1. Start Juice Shop and crAPI locally.
 2. Show target health checks and scope JSON.
-3. Run Vantix benchmark wrapper.
+3. Run SecHive benchmark wrapper.
 4. Open the generated HTML report and static index.
 5. Explain what was proven and what was not claimed.

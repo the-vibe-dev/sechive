@@ -3,7 +3,7 @@
   "container": {
     "container_id": "32aa7bc25346",
     "created": "2026-05-03T16:26:07.628653312Z",
-    "image": "vantix-benchmarks-benchmark-java",
+    "image": "sechive-benchmarks-benchmark-java",
     "image_id": "sha256:[REDACTED_SECRET]",
     "ports": {
       "8443/tcp": [

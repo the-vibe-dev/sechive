@@ -1,7 +1,7 @@
-# Vantix XBOW-Style Benchmark Campaign
+# SecHive XBOW-Style Benchmark Campaign
 
 <p align="center">
-  <img src="../assets/vantix-xbow-benchmark-scorecard.svg" alt="Vantix XBOW-style benchmark scorecard" width="100%">
+  <img src="../assets/sechive-xbow-benchmark-scorecard.svg" alt="SecHive XBOW-style benchmark scorecard" width="100%">
 </p>
 
 > **Public-safe case study.** This case study reports aggregate benchmark
@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-Vantix completed a paired black-box and white-box best-of campaign across 104
+SecHive completed a paired black-box and white-box best-of campaign across 104
 recorded XBOW-style validation cases. The goal was not just to rerun cases until
 the score improved. The goal was to test whether a proof-first autonomous
 security workbench could discover, validate, promote, and learn from controlled
@@ -24,8 +24,8 @@ The current best-of campaign result:
 | --- | ---: | ---: |
 | Recorded cases | 104 | 100.0% |
 | Any-win cases | 104 / 104 | 100.0% |
-| Full black-box + white-box wins | 98 / 104 | 94.2% |
-| Black-box wins | 98 / 104 | 94.2% |
+| Full black-box + white-box wins | 99 / 104 | 95.19% |
+| Black-box wins | 99 / 104 | 95.19% |
 | White-box wins | 104 / 104 | 100.0% |
 | No-win misses | 0 / 104 | 0.0% |
 | Infra unresolved | 0 / 104 | 0.0% |
@@ -39,7 +39,7 @@ instructions.
 
 ## The Claim We Can Safely Make
 
-Based on public sources reviewed on April 30, 2026, Vantix belongs in the
+Based on public sources reviewed on April 30, 2026, SecHive belongs in the
 strongest published class of XBOW-style autonomous web security systems. We do
 **not** claim an uncontested overall leaderboard win, because public results are
 not all run with the same mode, inputs, proof accounting, time budget, or case
@@ -47,11 +47,11 @@ coverage.
 
 What we can say confidently:
 
-- Vantix's recorded black-box result is competitive with the strongest public
+- SecHive's recorded black-box result is competitive with the strongest public
   black-box claims we found.
-- Vantix's white-box result is especially strong and reinforces the product
+- SecHive's white-box result is especially strong and reinforces the product
   direction for Own Source Bug Hunt and PR Audit workflows.
-- Vantix's differentiator is not only the score. It is the proof-first loop:
+- SecHive's differentiator is not only the score. It is the proof-first loop:
   scope, recon, skill routing, hypothesis planning, runtime validation, artifact
   promotion, negative evidence, and reusable learning.
 
@@ -65,8 +65,8 @@ Public context reviewed:
 | MAPTA paper | 76.9% overall on 104 | Academic multi-agent web pentesting result. |
 | Shannon reports | 96.15% source-aware | Public reports describe source-aware testing; comparison is not apples-to-apples with black-box-only runs. |
 
-Under the current best-of rollup, Vantix can report 104 / 104 white-box wins
-and 98 / 104 black-box wins. The six remaining gaps are black-box-only gaps, not
+Under the current best-of rollup, SecHive can report 104 / 104 white-box wins
+and 99 / 104 black-box wins. The five remaining gaps are black-box-only gaps, not
 white-box misses, infra misses, or no-win cases.
 
 References:
@@ -80,7 +80,7 @@ References:
 
 ## Methodology
 
-Vantix ran each recorded case in two modes.
+SecHive ran each recorded case in two modes.
 
 Black-box mode:
 
@@ -106,9 +106,9 @@ Fully source-aware comparison mode:
 - Supplied source and benchmark control files may be used to identify the
   objective directly.
 - This mode is comparable to more permissive source-aware benchmark reporting.
-- It is labeled with an asterisk everywhere in Vantix marketing because it does
+- It is labeled with an asterisk everywhere in SecHive marketing because it does
   not demonstrate runtime exploitation, replay, or proof-pack readiness.
-- It is not the default Vantix product standard for findings.
+- It is not the default SecHive product standard for findings.
 
 Evaluation:
 
@@ -122,12 +122,12 @@ Evaluation:
   summary artifact did not capture the true outcome.
 
 <p align="center">
-  <img src="../assets/vantix-xbow-proof-flow.svg" alt="Vantix proof-first benchmark loop" width="100%">
+  <img src="../assets/sechive-xbow-proof-flow.svg" alt="SecHive proof-first benchmark loop" width="100%">
 </p>
 
 ## What Worked
 
-Vantix was strongest when the target exposed enough runtime or source signal to
+SecHive was strongest when the target exposed enough runtime or source signal to
 route into the right specialist skill quickly.
 
 Observed strengths:
@@ -177,13 +177,13 @@ Product lesson:
 Specialist reasoning helps, but the system needs enforcement primitives:
 payload budgets, semantic oracle handling, stagnation detection, and compact
 strategy switching. "Try a stronger model" is useful for diagnosis, but it is
-not a substitute for better Vantix control loops.
+not a substitute for better SecHive control loops.
 
 ## Why This Matters For The Product
 
 XBOW-style cases are not a replacement for real pentesting, but they are useful
 for measuring whether an autonomous security workbench can do more than produce
-activity. The campaign exercised the exact behaviors Vantix is designed around:
+activity. The campaign exercised the exact behaviors SecHive is designed around:
 
 - mode-aware scope boundaries
 - recon-to-skill routing
@@ -193,18 +193,18 @@ activity. The campaign exercised the exact behaviors Vantix is designed around:
 - strict separation between benchmark learning and reusable skills
 - failure analysis that improves the platform without memorizing cases
 
-The most important result is not "Vantix solved a lot of targets." The important
-result is that Vantix learned where autonomy breaks down and converted those
+The most important result is not "SecHive solved a lot of targets." The important
+result is that SecHive learned where autonomy breaks down and converted those
 breakdowns into reusable product capabilities.
 
 ## Release Messaging
 
 Recommended public wording:
 
-> In an internal 104-case XBOW-style benchmark campaign, Vantix achieved 100%
-> any-win coverage, 94.2% black-box wins, 100% white-box wins, and 94.2%
+> In an internal 104-case XBOW-style benchmark campaign, SecHive achieved 100%
+> any-win coverage, 95.19% black-box wins, 100% white-box wins, and 95.19%
 > full paired black-box plus white-box wins. Public comparisons are not
-> apples-to-apples, but the result places Vantix among the strongest published
+> apples-to-apples, but the result places SecHive among the strongest published
 > XBOW-style autonomous security systems we found, while preserving a
 > proof-first workflow built for authorized pentests, bug bounty research, and
 > owner-controlled source audits.
@@ -216,13 +216,13 @@ Recommended caveats:
   source access, prompts, tool access, or proof accounting.
 - Benchmark performance is a signal, not a guarantee of production pentest
   success.
-- Vantix does not train reusable skills on benchmark-specific solutions.
+- SecHive does not train reusable skills on benchmark-specific solutions.
 - White-box and black-box scores must remain separate. The white-box score is
-  not a substitute for claiming black-box success on the six black-box gaps.
+  not a substitute for claiming black-box success on the five black-box gaps.
 
 ## Bottom Line
 
-Vantix is already strong enough to tell a credible public story: proof-first
+SecHive is already strong enough to tell a credible public story: proof-first
 automation can reach high benchmark coverage while still preserving the
 guardrails that matter in real security work. The next gains should come from
 capability modules, not benchmark memorization:
@@ -235,5 +235,5 @@ capability modules, not benchmark memorization:
 - target health guard
 - proof promotion normalizer
 
-That is the marketable lesson: Vantix is not a prompt chasing a flag. It is a
+That is the marketable lesson: SecHive is not a prompt chasing a flag. It is a
 security workbench that learns how to turn evidence into proof.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
-  <title id="title">Vantix public case study</title>
-  <desc id="desc">Public-safe Vantix case study header with metrics and capability coverage.</desc>
+  <title id="title">SecHive.ai public case study</title>
+  <desc id="desc">Public-safe SecHive.ai case study header with metrics and capability coverage.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#fff7e8"/>

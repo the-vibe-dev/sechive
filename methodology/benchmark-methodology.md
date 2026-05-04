@@ -1,6 +1,6 @@
 # Benchmark Methodology
 
-Vantix benchmark evidence should be reproducible, label the test mode clearly, and link back to proof material.
+SecHive benchmark evidence should be reproducible, label the test mode clearly, and link back to proof material.
 
 ## Supported Result Types
 

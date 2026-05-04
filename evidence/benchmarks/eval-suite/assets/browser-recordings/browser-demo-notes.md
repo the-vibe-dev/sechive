@@ -9,11 +9,11 @@
 ## Demo Path
 
 1. Load the local OWASP Juice Shop benchmark target.
-2. Open the generated Vantix benchmark proof-pack index.
+2. Open the generated SecHive benchmark proof-pack index.
 3. Open the Juice Shop report preview.
 4. Open the BenchmarkJava scorecard page.
 5. Open the generated manifest.
 
 ## Safety Language
 
-This capture shows Vantix internally benchmarked against local intentionally vulnerable targets. It does not claim OWASP certification, OWASP compliance, third-party attestation, guaranteed exploit coverage, or zero false positives.
+This capture shows SecHive internally benchmarked against local intentionally vulnerable targets. It does not claim OWASP certification, OWASP compliance, third-party attestation, guaranteed exploit coverage, or zero false positives.

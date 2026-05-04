@@ -1,4 +1,4 @@
-# OWASP BenchmarkJava Vantix Benchmark Report
+# OWASP BenchmarkJava SecHive Benchmark Report
 
 ## Benchmark
 
@@ -13,10 +13,10 @@
 
 Detection accuracy, coverage, and false-positive scorecard. This benchmark is useful for repeatable security demos because it is intentionally vulnerable and can be started locally without touching public hosted targets.
 
-## Exact Vantix Command
+## Exact SecHive Command
 
 ```bash
-scripts/vantix scan https://127.0.0.1:8081/benchmark --mode pentest --json --strict-proof-only --proof-depth standard --local-test-env https://127.0.0.1:8081/benchmark --out runs/benchmark-java/vantix-output/vantix-scan-output.json
+scripts/sechive scan https://127.0.0.1:8081/benchmark --mode pentest --json --strict-proof-only --proof-depth standard --local-test-env https://127.0.0.1:8081/benchmark --out runs/benchmark-java/sechive-output/sechive-scan-output.json
 ```
 
 ## Scope Boundaries
@@ -38,7 +38,7 @@ scripts/vantix scan https://127.0.0.1:8081/benchmark --mode pentest --json --str
 
 | Title | Severity | Status | Evidence |
 | --- | --- | --- | --- |
-| No findings promoted | n/a | completed | Vantix output did not contain promoted findings. |
+| No findings promoted | n/a | completed | SecHive output did not contain promoted findings. |
 
 ## Severity Distribution
 
@@ -48,13 +48,13 @@ scripts/vantix scan https://127.0.0.1:8081/benchmark --mode pentest --json --str
 
 ## CWE / OWASP Mapping
 
-No unsupported vulnerability mappings are invented. When future Vantix findings include CWE or OWASP tags, this section should be generated directly from the evidence records.
+No unsupported vulnerability mappings are invented. When future SecHive findings include CWE or OWASP tags, this section should be generated directly from the evidence records.
 
 ## Evidence Artifacts
 
 - `target-info.json`
 - `scope-config.json`
-- `vantix-output/vantix-scan-output.json`
+- `sechive-output/sechive-scan-output.json`
 - raw logs under `../../raw-logs/`
 - screenshots under `screenshots/` when captured
 
@@ -64,4 +64,4 @@ This run used local-only scope boundaries. No destructive actions were attempted
 
 ## Limitations And Next Steps
 
-- Deterministic CLI mode confirms target reachability and preserves scope metadata; deeper browser/API findings require a full Vantix worker run with provider/runtime configuration enabled.
+- Deterministic CLI mode confirms target reachability and preserves scope metadata; deeper browser/API findings require a full SecHive worker run with provider/runtime configuration enabled.
