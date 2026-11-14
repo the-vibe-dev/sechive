@@ -1,24 +1,12 @@
 # XBOW-Style Black-Box Campaign
 
-<p align="center">
-  <img src="../assets/benchmark-104-scorecard.svg" alt="SecHive.ai XBOW-style 104-case scorecard" width="100%">
-</p>
+## Published snapshots
 
-## Executive Summary
+The retained May 2, 2026 [104-case manifest](../studies/benchmarks/xbow-full-manifest.json) supports **98 / 104 black-box wins**, **104 / 104 source-enabled wins** and **104 / 104 any-win cases**. These are best-of results after reruns, not first-attempt success rates.
 
-SecHive.ai completed a paired black-box and white-box best-of campaign across the 104-case XBOW-style benchmark set. The current public scorecard is:
+A later published summary reports **99 / 104 black-box wins**. The matching updated case-level evidence is not in the public manifest, whose rows still sum to 98. The later figure is retained as a separate summary-only claim, rather than presented as the same case-backed campaign. See [snapshot reconciliation](../docs/benchmark-snapshots.md) and [machine-readable campaign records](../data/benchmark-record.json).
 
-| Metric | Result | Rate |
-| --- | ---: | ---: |
-| Recorded cases | 104 | 100.0% |
-| Any-win cases | 104 / 104 | 100.0% |
-| Full black-box + white-box wins | 99 / 104 | 95.19% |
-| Black-box wins | 99 / 104 | 95.19% |
-| White-box wins | 104 / 104 | 100.0% |
-| No-win misses | 0 / 104 | 0.0% |
-| Infra unresolved | 0 / 104 | 0.0% |
-
-The result is reported as a best-of campaign because the benchmark was used as an engineering evaluation surface: failed runs were analyzed, product behavior was improved, and cases were rerun under the same mode boundaries. The public claim is not that every first attempt solved every target. The claim is that SecHive.ai can turn a benchmark campaign into measurable, auditable system improvement while keeping black-box and white-box evidence separate.
+Exact per-case attempt counts, time budgets and model/tool versions are not fully published. The benchmark is a controlled engineering evaluation and does not establish a purchasable product, service guarantee or independent certification.
 
 ## What Was Tested
 
@@ -39,7 +27,7 @@ A black-box win was counted only when the retained evidence showed target-derive
 
 ## What Improved
 
-Earlier public-safe docs carried a lower black-box number. The current SecHive.ai site and scorecard have been updated to 99 / 104 black-box wins. That matters because this repository is meant to support the current market-facing claim, not preserve stale marketing copy.
+Earlier public-safe docs carried a lower black-box number. The later summary reported 99 / 104 black-box wins. The archived per-case rows remain a separate 98 / 104 snapshot; publication of the corresponding updated case evidence is needed to reconcile them.
 
 The improvement came from the same loop the product uses in normal testing:
 
@@ -51,7 +39,7 @@ The improvement came from the same loop the product uses in normal testing:
 
 ## What The Remaining Gaps Mean
 
-The five remaining black-box gaps are retained as negative evidence. They are not hidden because hiding them would make the benchmark less useful.
+The retained manifest has six black-box gaps. The later 99-win summary implies five; its corresponding case update is not published. They are not hidden because hiding them would make the benchmark less useful.
 
 Those gaps are useful product signals. They concentrate around the hardest parts of autonomous black-box testing:
 
@@ -71,7 +59,7 @@ This is exactly why the product reports both numbers. Black-box shows outside-in
 
 SecHive.ai does not claim an uncontested universal leaderboard win. Public results vary by mode, target set, time budget, scoring rules, and what counts as proof. The defensible claim is:
 
-> SecHive.ai belongs in the strongest published class of autonomous web security systems, with 99 / 104 black-box wins, 104 / 104 source-enabled wins, and an evidence model that separates validated proof from candidates and negative evidence.
+> The retained case snapshot supports 98 / 104 black-box and 104 / 104 source-enabled best-of wins. The later 99 / 104 black-box summary is a distinct, unreconciled publication.
 
 ## Supporting Artifacts
 

@@ -1,0 +1,630 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-11-14",
+  "sourceRepository": "https://github.com/the-vibe-dev/sechive",
+  "sourceCommit": "35841f36b63353de3a2d75bf748eec63886c04b9",
+  "campaigns": [
+    {
+      "id": "xbow-retained-cases",
+      "surface": "XBOW-style",
+      "campaign": "Retained per-case manifest",
+      "date": "2026-05-02",
+      "version": "XBEN-001-24 through XBEN-104-24",
+      "mode": "Black-box / source-enabled, reported separately",
+      "method": "Best retained result per case after reruns; not first-attempt success",
+      "attempts": null,
+      "denominator": 104,
+      "blackBoxWins": 98,
+      "sourceEnabledWins": 104,
+      "status": "case-record-backed",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/studies/benchmarks/xbow-full-manifest.json",
+      "cases": [
+        {
+          "caseId": "XBEN-001-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-002-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-003-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-004-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-005-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-006-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-007-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-008-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-009-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-010-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-011-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-012-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-013-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-014-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-015-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-016-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-017-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-018-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-019-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-020-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-021-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-022-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-023-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-024-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-025-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-026-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-027-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-028-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-029-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-030-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-031-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-032-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-033-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-034-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-035-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-036-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-037-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-038-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-039-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-040-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-041-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-042-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-043-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-044-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-045-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-046-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-047-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-048-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-049-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-050-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-051-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-052-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-053-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-054-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-055-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-056-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-057-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-058-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-059-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-060-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-061-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-062-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-063-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-064-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-065-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-066-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-067-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-068-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-069-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-070-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-071-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-072-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-073-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-074-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-075-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-076-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-077-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-078-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-079-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-080-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-081-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-082-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-083-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-084-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-085-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-086-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-087-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-088-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-089-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-090-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-091-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-092-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-093-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-094-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-095-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-096-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-097-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-098-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-099-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-100-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-101-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-102-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-103-24",
+          "blackBox": true,
+          "sourceEnabled": true
+        },
+        {
+          "caseId": "XBEN-104-24",
+          "blackBox": false,
+          "sourceEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "xbow-summary-revision",
+      "surface": "XBOW-style",
+      "campaign": "Later published summary revision",
+      "date": null,
+      "version": "104-case set; per-case update not supplied",
+      "mode": "Black-box / source-enabled",
+      "method": "Published best-of rollup; differs from retained per-case rows",
+      "attempts": null,
+      "denominator": 104,
+      "blackBoxWins": 99,
+      "sourceEnabledWins": 104,
+      "status": "summary-only-unreconciled",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/case-studies/xbow-black-box-campaign.md"
+    },
+    {
+      "id": "juice-archived-blackbox",
+      "surface": "Juice Shop",
+      "campaign": "Archived black-box report",
+      "date": null,
+      "version": "Historical 111-challenge tree; commit not pinned",
+      "mode": "Black-box runtime findings",
+      "method": "Finding count, not challenge unlocks",
+      "attempts": null,
+      "findings": 32,
+      "denominator": null,
+      "status": "archived-report",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/studies/examples/juice-shop-blackbox-report.md"
+    },
+    {
+      "id": "juice-archived-source",
+      "surface": "Juice Shop",
+      "campaign": "Archived source-assisted report",
+      "date": null,
+      "version": "Historical 111-challenge tree; commit not pinned",
+      "mode": "Runtime findings plus source candidates",
+      "method": "32 runtime findings + 23 source candidates; not 55 validated vulnerabilities",
+      "attempts": null,
+      "findings": 55,
+      "denominator": null,
+      "status": "archived-report",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/studies/examples/juice-shop-whitebox-report.md"
+    },
+    {
+      "id": "juice-followup-runtime",
+      "surface": "Juice Shop",
+      "campaign": "Follow-up runtime snapshot",
+      "date": null,
+      "version": "Historical 111-challenge tree; commit not pinned",
+      "mode": "Runtime findings",
+      "method": "Reported later run; distinct from the completed May 4 report",
+      "attempts": null,
+      "findings": 35,
+      "denominator": null,
+      "status": "published-narrative",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/studies/examples/juice-shop-blackbox-report.md"
+    },
+    {
+      "id": "juice-followup-source",
+      "surface": "Juice Shop",
+      "campaign": "Follow-up source-assisted snapshot",
+      "date": null,
+      "version": "Historical 111-challenge tree; commit not pinned",
+      "mode": "Runtime findings plus source candidates",
+      "method": "Combined finding/candidate items; not challenge completion",
+      "attempts": null,
+      "findings": 58,
+      "denominator": null,
+      "status": "published-narrative",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/studies/examples/juice-shop-whitebox-report.md"
+    },
+    {
+      "id": "juice-good-run",
+      "surface": "Juice Shop",
+      "campaign": "Completed public example report",
+      "date": "2026-05-04",
+      "version": "Target image/commit not pinned in the public JSON",
+      "mode": "Runtime-validated findings (pentest mode)",
+      "method": "Count of published report findings; not challenge unlocks",
+      "attempts": null,
+      "findings": 39,
+      "denominator": null,
+      "status": "report-backed",
+      "evidence": "https://github.com/the-vibe-dev/sechive/blob/35841f36b63353de3a2d75bf748eec63886c04b9/evidence/juice-shop/latest-good-run/run_report.json"
+    }
+  ]
+}
